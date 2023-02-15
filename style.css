@@ -884,7 +884,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(7, 7, 7, 0.562)), url(/src/assets/img/modern-minimalist-ivory-home-garage-9euuep88adzkg08e.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(7, 7, 7, 0.562)), url(./src/assets/img/modern-minimalist-ivory-home-garage-9euuep88adzkg08e.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -1491,7 +1491,7 @@ h2 {
 
 .testimonial__sec {
   padding: 7rem 0;
-  background: linear-gradient(rgba(255, 255, 255, 0.631372549), rgba(255, 255, 255, 0.85)), url(/src/assets/img/modern-minimalist-ivory-home-garage-9euuep88adzkg08e.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.631372549), rgba(255, 255, 255, 0.85)), url(./src/assets/img/modern-minimalist-ivory-home-garage-9euuep88adzkg08e.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -1594,7 +1594,7 @@ footer .px-app-button .reach__link__ {
 }
 
 [data-pushbar-id] {
-  background: linear-gradient(rgba(2, 2, 2, 0.842), rgba(0, 0, 0, 0.5)), url(/src/assets/img/bg2.jpg);
+  background: linear-gradient(rgba(2, 2, 2, 0.842), rgba(0, 0, 0, 0.5)), url(./src/assets/img/bg2.jpg);
   background-size: cover;
   background-position: bottom;
 }/*# sourceMappingURL=style.css.map */
