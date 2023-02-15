@@ -1,0 +1,38 @@
+.work_sec {
+  padding: 8rem 0;
+  text-align: center;
+  min-height: 30vh;
+  background-color: #e8f2fc;
+
+  .px-app_heading_two {
+    width: 96%;
+    max-width: 877px;
+    h2 {
+      margin: 0 0 1.5rem 0;
+      text-align: right;
+      color: #3f5269;
+    }
+  }
+  .paragraph__ {
+    color: #303441;
+    text-align: right;
+    margin-bottom: 3.4rem;
+    font-weight: 500;
+  }
+  .px-app-button {
+    .fitter_text_button {
+      width: 230px;
+      color: $black;
+      border: 0.1rem solid $black;
+
+      text-transform: capitalize;
+      &::after {
+        background-color: $black;
+      }
+    }
+  }
+  .work_ {
+    background: $black;
+    color: $white;
+  }
+}

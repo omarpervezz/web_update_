@@ -1,0 +1,55 @@
+$button__width: 200px;
+$button_height: 49px;
+.btn_ {
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #eaf0f000;
+  width: $button__width;
+  max-width: 100%;
+  text-align: center;
+  padding: 1.2rem 2.4rem;
+  border: 0.1rem solid #ffffff;
+  transition: 0.4s all;
+  margin: 1rem 0;
+  position: relative;
+  height: $button_height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s all ease-in-out;
+
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 0.01rem;
+    opacity: 1;
+    background: rgb(5, 5, 5);
+    position: absolute;
+    transition: 0.4s all ease-in-out;
+    position: absolute;
+  }
+  &:before {
+    left: calc($button__width * -0.096);
+  }
+  &:after {
+    right: calc($button__width * -0.096);
+  }
+
+  &:hover:before,
+  &:hover:after {
+    background: #477cab;
+    opacity: 1;
+  }
+  &:hover:before {
+    left: calc($button__width * -0.057);
+  }
+  &:hover:after {
+    right: calc($button__width * -0.057);
+  }
+  &:hover {
+    background: #fff !important;
+    color: $black !important;
+  }
+}

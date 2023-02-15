@@ -1,0 +1,60 @@
+section {
+  padding: 5rem 0;
+}
+.container-fluid {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  --bs-gutter-x: 0;
+}
+
+h2 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+.px-app_heading_two {
+  width: 80%;
+  max-width: 800px;
+}
+.px-app_button {
+  width: 80%;
+  max-width: 700px;
+}
+.px_headging_three {
+  width: 90%;
+  max-width: 700px;
+}
+h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  position: relative;
+}
+.__line___ {
+  width: $full__width;
+  position: relative;
+  font-weight: 600;
+  display: block;
+  height: $full__height;
+  letter-spacing: -1px;
+
+  span {
+    color: #787878;
+  }
+
+  &:before {
+    content: "";
+    font-size: 3.4rem;
+    display: block;
+    width: 67%;
+    height: 0.4rem;
+    background-color: #6c6c6c;
+    position: absolute;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.4rem;
+    background-color: #3c7b77;
+    position: absolute;
+  }
+}
