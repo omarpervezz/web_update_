@@ -1,11 +1,14 @@
 footer {
-  padding: 7rem 0;
+  height: $full__height;
 
-  .px-app-button {
-    margin-top: 2rem;
-    .reach__link__ {
-      color: $black;
-      border: 0.1rem solid $black;
+  > div {
+    padding: calc($full__height * 0.03) 0;
+    .px-app-button {
+      margin-top: 2rem;
+      .reach__link__ {
+        color: $black;
+        border: 0.1rem solid $black;
+      }
     }
   }
 }

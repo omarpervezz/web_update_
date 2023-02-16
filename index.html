@@ -11,6 +11,8 @@
       type="image/x-icon"
       href="./src/assets/logo_img/the_right_realty_group.jpeg"
     />
+    <!--normalize css-->
+    <link rel="stylesheet" href="./src/vendor_css/normalize.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,16 +22,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
-    <!--google material icon-->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-
+    <!--animate css-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!--carousel css-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
@@ -38,17 +36,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
     />
+    <!--banner slider css-->
     <link
       rel="stylesheet"
       href="./src/vendor_css/jquery-bg-slideshow-min.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
-    ></script>
-    <script src="./src/vendor_js/jquery-bg-slideshow-min.js"></script>
-    <link rel="stylesheet" href="./style.css" />
+    <!--main css-->
+    <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
 
   <body>
@@ -74,7 +68,7 @@
               <div class="nav_menu">
                 <ul class="d-flex desk_menu">
                   <li class="d-flex flex-column">
-                    <a href="#" class="nav_item">REALTY Listing</a>
+                    <a href="list.html" class="nav_item">REALTY Listing</a>
                   </li>
                   <li class="d-flex align-items-center">
                     <a class="d-flex align-items-center nav_item" href="#"
@@ -255,7 +249,7 @@
         <div class="bg__"></div>
       </section>
       <!--end banner-->
-
+      <!--recent sales start-->
       <section class="gallery">
         <div class="col__1 gallery__column animate__animated" data-scroll>
           <a href="#" class="gallery__link">
@@ -403,7 +397,9 @@
           <div class="realty_listing_ mb-5">
             <div class="row">
               <div class="col-12 d-flex justify-content-center">
-                <a href="#" class="btn_ btn_all_litsting">All Listings</a>
+                <a href="list.html" class="btn_ btn_all_litsting"
+                  >All Listings</a
+                >
               </div>
             </div>
           </div>
@@ -1632,936 +1628,6 @@
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <article class="material-card Blue">
-                <h2>
-                  <span>Jin Hong</span>
-                  <strong class="paragraph__">
-                    <i class="fa fa-fw fa-star"></i>
-                    Branch Manager
-                  </strong>
-                </h2>
-                <div class="mc-content">
-                  <div class="img-container">
-                    <img
-                      class="img-responsive"
-                      src="./src/assets/members_img/avatar_user_13_1654103184-600x600.jpg"
-                      alt="members-1"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div
-                    class="mc-description d-flex flex-column text-decoration-none"
-                  >
-                    <p class="paragraph__ m-0 p-0">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Sit mollitia neque numquam temporibus officia minus eaque
-                      doloremque, at ipsam culpa.
-                    </p>
-                    <p class="paragraph__ mt-2">DRE# 01493237</p>
-                    <p class="paragraph__ mt-2">
-                      <a href="#">example@realty.com</a>
-                    </p>
-                    <p class="paragraph__">(714) 336-5222</p>
-                  </div>
-                </div>
-                <a class="mc-btn-action">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                  <h4 class="paragraph__">Social</h4>
-                  <a class="facebook"
-                    ><img
-                      src="./src/assets/social_media_icon/Facebook.png"
-                      alt="facebook"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/LinkedIn.png"
-                      alt="linkedin"
-                  /></a>
-                  <a class="twitter"
-                    ><img
-                      src="./src/assets/social_media_icon/Twitter.png"
-                      alt=""
-                  /></a>
-                  <a class="instragram"
-                    ><img
-                      src="./src/assets/social_media_icon/Instagram.png
-                                "
-                      alt="instragram"
-                  /></a>
-                </div>
-              </article>
-            </div>
           </div>
         </div>
       </section>
@@ -2678,36 +1744,113 @@
         </div>
       </section>
       <!--testimonial end-->
-    </main>
-    <!--main end-->
+      <!--contact us-->
+      <section class="contact__us">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <h2 class="heading_two">Contact Us</h2>
+            </div>
+          </div>
 
-    <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col col-sm-12 d-flex flex-column align-items-center">
-            <h2 class="heading_two">
-              Let's Stop Talking and Start Viewing Houses Together
-            </h2>
-            <div class="px-app-button">
-              <a href="#" class="btn_ reach__link__">Reach Out Now</a>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <form
+                id="contact-form"
+                name="myForm"
+                class="form"
+                action="#"
+                onsubmit="return validateForm()"
+                method="POST"
+                role="form"
+              >
+                <div class="form-group">
+                  <label class="form-label" id="nameLabel" for="name"></label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    tabindex="1"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" id="emailLabel" for="email"></label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email"
+                    tabindex="2"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label
+                    class="form-label"
+                    id="subjectLabel"
+                    for="property"
+                  ></label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    name="property"
+                    placeholder="property"
+                    tabindex="3"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label
+                    class="form-label"
+                    id="messageLabel"
+                    for="message"
+                  ></label>
+                  <textarea
+                    rows="6"
+                    cols="60"
+                    name="message"
+                    class="form-control"
+                    id="message"
+                    placeholder="Your message"
+                    tabindex="4"
+                  ></textarea>
+                </div>
+
+                <div class="text-center d-flex justify-content-center mt-5">
+                  <button type="submit" class="btn_ submit_btn">
+                    Send Message
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </section>
+      <!--contact us-->
+    </main>
+    <!--main end-->
 
+    <!--script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
-    <script src="./src/vendor_js/jquery.fittext.js"></script>
-    <script src="./src/js/font_responsive.js"></script>
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script src="./src/vendor_js/jquery-bg-slideshow-min.js"></script>
+    <script src="./src/vendor_js/jquery.fittext.js"></script>
     <script src="./src/js/pushbar.js"></script>
-    <script src="./src/js/scrollout_.js"></script>
-    <script src="./src/js/team_card.js"></script>
-    <script src="./main.js"></script>
+    <script defer src="./main.js"></script>
   </body>
 </html>

@@ -1,0 +1,55 @@
+.contact__us {
+  background: linear-gradient(hsl(0deg 0% 0% / 69%), hsl(0deg 0% 0% / 92%)),
+    url(../assets/img/slide-8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  #success-message {
+    opacity: 0;
+  }
+
+  .col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+    padding: 0 20% 0 20%;
+  }
+
+  .heading_two {
+    color: $white;
+  }
+
+  .form-group .form-control {
+    background: transparent;
+    padding: 1.7rem 3rem;
+    border-bottom: 0.1rem solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 1.4rem;
+  }
+  ::placeholder {
+    color: rgb(209, 205, 205);
+  }
+  .form-group .form-control:focus {
+    box-shadow: none;
+    border-width: 0 0 2px 0;
+  }
+  .submit_btn {
+    &:before,
+    &:after {
+      background: $white;
+    }
+    &:hover:before,
+    &:hover:after {
+      background: $black;
+    }
+  }
+  textarea {
+    resize: none;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .form-title {
+      font-size: 20px;
+    }
+  }
+}
