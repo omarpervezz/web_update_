@@ -89,7 +89,7 @@ $(document).ready(function () {
     /* paragrap__ */
     $(".paragraph__").fitText(1.2, {
       minFontSize: "13px",
-      maxFontSize: "13px",
+      maxFontSize: "14px",
     });
     /* button */
     $(".fitter_text_button").fitText(1.2, {
@@ -163,13 +163,28 @@ pageLinks.forEach((link) => {
 
 ScrollOut({
   onShown(el) {
-    el.classList.add("animate__fadeInUp");
-    // force reflow
-    void el.offsetWidth;
-    // re-add the animated cl
-    el.classList.add("animate__fadeInUp");
+    // el.classList.add("animate__fadeInUp");
+    // // force reflow
+    // void el.offsetWidth;
+    // // re-add the animated cl
+    // el.classList.add("animate__fadeInUp");
+
+    console.dir(el);
+
+    if (el.classList.contains("c__1")) {
+      el.classList.add("animate__fadeInLeft");
+    } else if (el.classList.contains("c__2")) {
+      el.classList.add("animate__fadeInRight");
+    } else if (el.classList.contains("banner_logo")) {
+      el.classList.add("animate__fadeInUp");
+    } else if (el.classList.contains("h__1")) {
+      el.classList.add("animate__fadeInUp");
+    }
   },
 });
+
+const menuItem = document.querySelectorAll(".nav_menu ul li a");
+console.log(menuItem);
 
 /* form submit */
 function validateForm() {
