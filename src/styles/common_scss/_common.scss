@@ -180,101 +180,6 @@ h2 {
   }
 }
 
-.wrapper___ {
-  position: absolute;
-  left: 50%;
-  top: 90%;
-  transform: translate(-50%, -90%);
-}
-
-.arrow {
-  position: relative;
-  top: -40px;
-  width: 10px;
-  height: 82px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-
-.arrow_line {
-  width: 1px;
-  height: 80px;
-  background: $white;
-  animation: height 2.5s ease-in infinite;
-}
-
-.arrow_tip-wrapper {
-  position: relative;
-  top: 83px;
-  left: -1px;
-  animation: arrow-tip 2.5s ease-in infinite;
-}
-
-.arrow_tip {
-  width: 1px;
-  height: 6px;
-  background: $white;
-  transform: rotate(45deg);
-  position: absolute;
-  left: 2px;
-}
-
-.arrow_tip.left {
-  transform: rotate(-45deg);
-  left: -2px;
-}
-
-@keyframes grow {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0;
-  }
-}
-
-@keyframes height {
-  0% {
-    transform: translateY(-100%);
-  }
-  50% {
-    transform: translateY(0);
-  }
-  60% {
-    transform: translateY(0);
-  }
-  90% {
-    transform: translateY(110%);
-  }
-  100% {
-    transform: translateY(110%);
-  }
-}
-
-@keyframes arrow-tip {
-  0% {
-    transform: translateY(-100%);
-  }
-  50% {
-    transform: translateY(-1px);
-  }
-  85% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
 @media only screen and (max-width: 992px) {
   .banner_ .content__ .px-app_button {
     margin-top: 0;
@@ -293,18 +198,11 @@ h2 {
   }
 }
 @media only screen and (max-width: 766px) {
-  .wrapper___ {
-    top: 98%;
-    transform: translate(-50%, -98%);
+  .back_to_top_container #back_top {
+    width: 29px;
+    height: 29px;
   }
-  .arrow {
-    height: 42px;
-  }
-  .arrow_line {
-    height: 40px;
-  }
-
-  .arrow_tip-wrapper {
-    top: 36px;
+  .back_to_top_container #back_top:after {
+    font-size: 1.2rem;
   }
 }

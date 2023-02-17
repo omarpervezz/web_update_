@@ -1,5 +1,40 @@
 $height: 100%;
 $width: 100%;
+@-webkit-keyframes arrows {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: 12%;
+  }
+  20% {
+    top: 0;
+  }
+  30% {
+    top: 12%;
+  }
+  40% {
+    top: -12%;
+  }
+  50% {
+    top: 12%;
+  }
+  60% {
+    top: 0;
+  }
+  70% {
+    top: 12%;
+  }
+  80% {
+    top: -12%;
+  }
+  90% {
+    top: 12%;
+  }
+  100% {
+    top: 0;
+  }
+}
 .gallery {
   background: linear-gradient(#ffffffcc, #ffffffed),
     url(../assets/img/modern-minimalist-ivory-home-garage-9euuep88adzkg08e.jpg);
@@ -11,6 +46,110 @@ $width: 100%;
   padding: 0;
   transition: 0.3s;
   position: relative;
+  .arrow__wrapper___ {
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: -6rem;
+    transform: translate(-50%, -2rem);
+    z-index: 10;
+    transition: 0.4s all;
+    &:hover {
+      background-color: transparent;
+      border: 0.1rem solid $white;
+      i {
+        color: $white;
+      }
+    }
+    .arrow {
+      font-size: 2rem;
+      color: $black;
+      position: absolute;
+      -webkit-animation: arrows 2.8s 0.4s;
+      animation: arrows 1.8s 0.9s;
+      -webkit-animation-delay: 4s;
+      animation-delay: 4s;
+    }
+    @-webkit-keyframes arrows {
+      0% {
+        top: 0;
+      }
+      10% {
+        top: 12%;
+      }
+      20% {
+        top: 0;
+      }
+      30% {
+        top: 12%;
+      }
+      40% {
+        top: -12%;
+      }
+      50% {
+        top: 12%;
+      }
+      60% {
+        top: 0;
+      }
+      70% {
+        top: 12%;
+      }
+      80% {
+        top: -12%;
+      }
+      90% {
+        top: 12%;
+      }
+      100% {
+        top: 0;
+      }
+    }
+
+    @keyframes arrows {
+      0% {
+        top: 0;
+      }
+      10% {
+        top: 12%;
+      }
+      20% {
+        top: 0;
+      }
+      30% {
+        top: 12%;
+      }
+      40% {
+        top: -12%;
+      }
+      50% {
+        top: 12%;
+      }
+      60% {
+        top: 0;
+      }
+      70% {
+        top: 12%;
+      }
+      80% {
+        top: -12%;
+      }
+      90% {
+        top: 12%;
+      }
+      100% {
+        top: 0;
+      }
+    }
+  }
 
   &:hover &__image {
     filter: grayscale(1);
@@ -144,5 +283,15 @@ $width: 100%;
   }
   .gallery__column .realty_listing_ {
     padding: 0 25px;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .gallery .arrow__wrapper___ {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  .gallery .arrow__wrapper___ .arrow {
+    font-size: 1.2rem;
   }
 }

@@ -272,7 +272,7 @@ variable
 .desk_menu a.nav_item:visited:hover i,
 .mobile_menu li a.nav_item:link:hover i,
 .mobile_menu li a.nav_item:visited:hover i {
-  color: #ffffff !important;
+  color: #000 !important;
 }
 .desk_menu a.nav_item:link::before,
 .desk_menu a.nav_item:visited::before,
@@ -475,7 +475,7 @@ html.pushbar_locked .pushbar_overlay {
   text-decoration: underline;
 }
 
-.close {
+#close {
   background: transparent;
   border: none;
   outline: none;
@@ -487,11 +487,11 @@ html.pushbar_locked .pushbar_overlay {
   align-items: center;
   justify-content: center;
 }
-.close span {
+#close i {
   font-size: 2.9rem;
   color: rgba(255, 255, 255, 0.6588235294);
 }
-.close .close_text {
+#close .close_text {
   font-size: 1.1rem;
 }
 
@@ -767,6 +767,72 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   transition: 0.3s;
   position: relative;
 }
+.gallery .arrow__wrapper___ {
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: -6rem;
+  transform: translate(-50%, -2rem);
+  z-index: 10;
+  transition: 0.4s all;
+}
+.gallery .arrow__wrapper___:hover {
+  background-color: transparent;
+  border: 0.1rem solid #ffffff;
+}
+.gallery .arrow__wrapper___:hover i {
+  color: #ffffff;
+}
+.gallery .arrow__wrapper___ .arrow {
+  font-size: 2rem;
+  color: #000;
+  position: absolute;
+  animation: arrows 1.8s 0.9s;
+  animation-delay: 4s;
+}
+@keyframes arrows {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: 12%;
+  }
+  20% {
+    top: 0;
+  }
+  30% {
+    top: 12%;
+  }
+  40% {
+    top: -12%;
+  }
+  50% {
+    top: 12%;
+  }
+  60% {
+    top: 0;
+  }
+  70% {
+    top: 12%;
+  }
+  80% {
+    top: -12%;
+  }
+  90% {
+    top: 12%;
+  }
+  100% {
+    top: 0;
+  }
+}
 .gallery:hover .gallery__image {
   filter: grayscale(1);
 }
@@ -877,6 +943,15 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   }
   .gallery__column .realty_listing_ {
     padding: 0 25px;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .gallery .arrow__wrapper___ {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  .gallery .arrow__wrapper___ .arrow {
+    font-size: 1.2rem;
   }
 }
 .card__container__ {
@@ -1617,98 +1692,6 @@ h2 {
   visibility: visible !important;
 }
 
-.wrapper___ {
-  position: absolute;
-  left: 50%;
-  top: 90%;
-  transform: translate(-50%, -90%);
-}
-
-.arrow {
-  position: relative;
-  top: -40px;
-  width: 10px;
-  height: 82px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-
-.arrow_line {
-  width: 1px;
-  height: 80px;
-  background: #ffffff;
-  animation: height 2.5s ease-in infinite;
-}
-
-.arrow_tip-wrapper {
-  position: relative;
-  top: 83px;
-  left: -1px;
-  animation: arrow-tip 2.5s ease-in infinite;
-}
-
-.arrow_tip {
-  width: 1px;
-  height: 6px;
-  background: #ffffff;
-  transform: rotate(45deg);
-  position: absolute;
-  left: 2px;
-}
-
-.arrow_tip.left {
-  transform: rotate(-45deg);
-  left: -2px;
-}
-
-@keyframes grow {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0;
-  }
-}
-@keyframes height {
-  0% {
-    transform: translateY(-100%);
-  }
-  50% {
-    transform: translateY(0);
-  }
-  60% {
-    transform: translateY(0);
-  }
-  90% {
-    transform: translateY(110%);
-  }
-  100% {
-    transform: translateY(110%);
-  }
-}
-@keyframes arrow-tip {
-  0% {
-    transform: translateY(-100%);
-  }
-  50% {
-    transform: translateY(-1px);
-  }
-  85% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 @media only screen and (max-width: 992px) {
   .banner_ .content__ .px-app_button {
     margin-top: 0;
@@ -1727,18 +1710,12 @@ h2 {
   }
 }
 @media only screen and (max-width: 766px) {
-  .wrapper___ {
-    top: 98%;
-    transform: translate(-50%, -98%);
+  .back_to_top_container #back_top {
+    width: 29px;
+    height: 29px;
   }
-  .arrow {
-    height: 42px;
-  }
-  .arrow_line {
-    height: 40px;
-  }
-  .arrow_tip-wrapper {
-    top: 36px;
+  .back_to_top_container #back_top:after {
+    font-size: 1.2rem;
   }
 }
 .testimonial__sec {

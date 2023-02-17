@@ -63,7 +63,7 @@
     }
   }
 }
-.close {
+#close {
   background: transparent;
   border: none;
   outline: none;
@@ -75,7 +75,7 @@
   align-items: center;
   justify-content: center;
 
-  span {
+  i {
     font-size: 2.9rem;
     color: #ffffffa8;
   }
