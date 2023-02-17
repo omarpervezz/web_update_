@@ -1805,8 +1805,46 @@
         </div>
       </section>
       <!--have a question-->
+      <!--social media start-->
+      <div class="social_media">
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="./src/assets/social_media_icon/Facebook.png"
+                alt="facebook"
+                class="img-fluid"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./src/assets/social_media_icon/LinkedIn.png"
+                alt="linkedin"
+                class="img-fluid"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./src/assets/social_media_icon/Twitter.png"
+                alt="twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="instragram_"
+              ><img
+                src="./src/assets/social_media_icon/Instagram.png"
+                alt="instragram"
+                class="img-fluid"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <!--social media end-->
     </main>
     <!--main end-->
+
     <!--footer-->
     <footer>
       <!--contact us-->
@@ -1903,31 +1941,6 @@
 
     <!--script-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script>
-      $(function () {
-        $("a[href*=#]:not([href=#])").click(function () {
-          if (
-            location.pathname.replace(/^\//, "") ==
-              this.pathname.replace(/^\//, "") &&
-            location.hostname == this.hostname
-          ) {
-            var target = $(this.hash);
-            target = target.length
-              ? target
-              : $("[name=" + this.hash.slice(1) + "]");
-            if (target.length) {
-              $("html,body").animate(
-                {
-                  scrollTop: target.offset().top,
-                },
-                1000
-              );
-              return false;
-            }
-          }
-        });
-      });
-    </script>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"

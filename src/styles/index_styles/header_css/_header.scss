@@ -127,3 +127,8 @@ header {
     }
   }
 }
+@media only screen and (max-width: 766px) {
+  header .container-fluid .row_ .logo_contianer .logo_ a img {
+    width: 4rem;
+  }
+}
