@@ -1,0 +1,44 @@
+.s__banner {
+  .bottom_bg {
+    background: $white;
+  }
+}
+.colloborating__ {
+  h1 {
+    height: $full__height;
+    line-height: calc($full__height * 1.3);
+  }
+}
+
+.video_wrapper {
+  .row__1 {
+    margin-bottom: 4rem;
+  }
+  h5 {
+    width: $full__width;
+    color: #e42b2b;
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
+  .siteWrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.about__wo {
+  background: #2b2b2b;
+  h2,
+  p,
+  a {
+    color: $white !important;
+  }
+  a {
+    border: 0.1rem solid $white !important;
+    &:before,
+    &:after {
+      background: $white !important;
+    }
+  }
+}

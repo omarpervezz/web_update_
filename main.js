@@ -93,8 +93,8 @@ $(document).ready(function () {
     });
     /* button */
     $(".fitter_text_button").fitText(1.2, {
-      minFontSize: "15px",
-      maxFontSize: "18px",
+      minFontSize: "14px",
+      maxFontSize: "16px",
     });
     $(".material-card h2").fitText(1.2, {
       minFontSize: "15px",
@@ -144,6 +144,30 @@ $(document).ready(function () {
       autoPlay: false,
     });
   });
+
+  $(function () {
+    var vid = $("#my_video").RTOP_VideoPlayer({
+      showFullScreen: true,
+      showTimer: true,
+      showSoundControl: true,
+    });
+  });
+  $(function () {
+    var btn = $("#back_top");
+
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass("show");
+      } else {
+        btn.removeClass("show");
+      }
+    });
+
+    btn.on("click", function (e) {
+      e.preventDefault();
+      $("html, body").animate({ scrollTop: 0 }, "300");
+    });
+  });
 });
 
 // Get the current page URL
@@ -163,12 +187,6 @@ pageLinks.forEach((link) => {
 
 ScrollOut({
   onShown(el) {
-    // el.classList.add("animate__fadeInUp");
-    // // force reflow
-    // void el.offsetWidth;
-    // // re-add the animated cl
-    // el.classList.add("animate__fadeInUp");
-
     console.dir(el);
 
     if (el.classList.contains("c__1")) {

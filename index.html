@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Right Realty Group - Making Real Estate a Breeze</title>
     <!-- favicon -->
@@ -44,7 +43,6 @@
     <!--main css-->
     <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
-
   <body>
     <!--start header-->
     <header class="animate__animated">
@@ -75,7 +73,6 @@
                       >Master Plan
                       <i class="fa-solid fa-chevron-down"></i>
                     </a>
-
                     <!--sub menu-->
                     <div class="dropdown-content d-flex flex-column">
                       <a href="seller.html"> <span>Sellers</span></a>
@@ -101,7 +98,7 @@
                       <a href="team.html">
                         <span>Team</span>
                       </a>
-                      <a href="videos.html">
+                      <a href="#">
                         <span>Videos</span>
                       </a>
                       <a href="contact.html">
@@ -110,11 +107,9 @@
                     </div>
                   </li>
                   <li>
-                    <a href="testimonials.html" class="nav_item"
-                      >Testimonials</a
-                    >
+                    <a href="#" class="nav_item">Testimonials</a>
                   </li>
-                  <li><a href="career.html" class="nav_item">Career</a></li>
+                  <li><a href="#" class="nav_item">Career</a></li>
                 </ul>
               </div>
             </div>
@@ -162,8 +157,8 @@
                   <div>
                     <h5>REALTY Listing</h5>
                     <ul>
-                      <li><a href="#">Our Properties</a></li>
-                      <li><a href="#">Recent Sell</a></li>
+                      <li><a href="list.html">REALTY Listing</a></li>
+                      <li><a href="recent.html">Recent Sell</a></li>
                       <li><a href="#">Recent added</a></li>
                       <li>
                         <a href="#">Pre-Appointment Survey for Buyers</a>
@@ -173,8 +168,8 @@
                   <div>
                     <h5>Master Plan</h5>
                     <ul>
-                      <li><a href="#">Sellers</a></li>
-                      <li><a href="#">Buyers</a></li>
+                      <li><a href="seller.html">Sellers</a></li>
+                      <li><a href="buyer.html">Buyers</a></li>
                       <li><a href="#">Pre-Listing Survey for Sellers</a></li>
                       <li>
                         <a href="#">Pre-Appointment Survey for Buyers</a>
@@ -184,10 +179,10 @@
                   <div>
                     <h5>Why REALTY</h5>
                     <ul>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Team</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="team.html">Team</a></li>
                       <li><a href="#">Videos</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </div>
                 </div>
@@ -207,7 +202,6 @@
           </div>
         </div>
       </div>
-
       <button id="close" type="button" data-pushbar-close>
         <span class="material-symbols-outlined"> close </span>
         <span class="close_text">close</span>
@@ -221,7 +215,11 @@
           <div class="row">
             <div class="col col-12 text-center">
               <div class="px-app px-glitch">
-                <h1 id="fitterText_heading_one" class="animate__animated">
+                <h1
+                  id="fitterText_heading_one"
+                  class="animate__animated h__1"
+                  data-scroll
+                >
                   <span class="px-top__">Find Your Perfect Property with</span>
                   <span class="px-top__ px-anim__">The Right REALTY Group</span>
                 </h1>
@@ -233,19 +231,35 @@
               </div>
             </div>
             <div class="col col-12 mt-3 d-flex justify-content-center">
-              <div class="px-app_button d-flex justify-content-center">
+              <div
+                class="px-app_button d-flex justify-content-center animate__animated h__1"
+                data-scroll
+              >
                 <a href="#" class="btn_ btn_banner fitter_text_button"
                   >About Us
                 </a>
               </div>
             </div>
           </div>
+          <div id="arrow-wrapper-inner">
+            <div id="scroll-down">
+              <span class="arrow-down">
+                <!-- css generated icon -->
+              </span>
+            </div>
+          </div>
         </div>
-        <!-- <div class="indicator__container__">
-          <a href="#" id="indicator_"
-            > <i class="fa-solid fa-chevron-down"></i></i
-          ></a>
-        </div> -->
+        <div class="col-12">
+          <div class="wrapper___">
+            <div class="arrow">
+              <div class="arrow_line"></div>
+              <div class="arrow_tip-wrapper">
+                <div class="arrow_tip left"></div>
+                <div class="arrow_tip right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="bg__"></div>
       </section>
       <!--end banner-->
@@ -266,7 +280,6 @@
               </figcaption>
             </figure>
           </a>
-
           <a href="#" class="gallery__link">
             <figure class="gallery__thumb">
               <img
@@ -296,7 +309,6 @@
             </figure>
           </a>
         </div>
-
         <div class="gallery__column animate__animated">
           <a href="#" class="gallery__link">
             <figure class="gallery__thumb">
@@ -339,7 +351,6 @@
             </figure>
           </a>
         </div>
-
         <div class="gallery__column animate__animated">
           <a href="#" class="gallery__link">
             <figure class="gallery__thumb">
@@ -404,18 +415,21 @@
       </section>
       <!--recent sales end-->
       <!--work_as_section start-->
-      <section class="work_sec d-flex align-items-center">
+      <section id="work_" class="work_sec d-flex align-items-center">
         <div class="container-fluid">
           <div class="row">
             <div class="col col-12 col-md-12 col-lg-12">
               <div class="work_content__ d-flex flex-column align-items-end">
                 <div class="px-app_heading_two">
-                  <h2 class="heading_two d-flex justify-content-end __line___">
+                  <h2
+                    class="heading_two d-flex justify-content-end animate__animated h__1"
+                    data-scroll
+                  >
                     Achieving Your Real Estate Dreams, Together as a Team!
                   </h2>
                 </div>
                 <div class="px-app_heading_two">
-                  <p class="paragraph__">
+                  <p class="paragraph__ animate__animated h__1" data-scroll>
                     We are Your Trusted Real Estate Advisors. At our core, we
                     believe in fostering lasting relationships, creating vibrant
                     communities, and empowering our clients to reach their real
@@ -428,7 +442,10 @@
                   </p>
                 </div>
                 <div class="px-app-button">
-                  <a href="#" class="btn_ fitter_text_button"
+                  <a
+                    href="#"
+                    class="btn_ fitter_text_button animate__animated h__1"
+                    data-scroll
                     >Learn more about us
                   </a>
                 </div>
@@ -544,7 +561,6 @@
             />
           </div>
         </article>
-
         <article class="card-featured">
           <!-- Featured card component -->
           <img
@@ -581,7 +597,6 @@
           </div>
         </article>
       </section>
-
       <!--master plan start-->
       <section class="master_plan_">
         <div class="bg-primary">
@@ -591,12 +606,12 @@
                 class="col-12 text-center d-flex flex-column align-items-center justify-content-center"
               >
                 <div class="px-app_heading_two">
-                  <h2 class="heading_four">
+                  <h2 class="heading_four animate__animated h__1" data-scroll>
                     <span> Comprehensive Strategy </span>
                   </h2>
                 </div>
                 <br />
-                <p class="paragraph__ mt-2">
+                <p class="paragraph__ mt-2 animate__animated h__1" data-scroll>
                   Our marketing specialists craft comprehensive strategies for
                   each client, no matter their Real Estate goal.
                 </p>
@@ -608,7 +623,7 @@
           <div
             class="d-flex flex-column flex-column-md flex-lg-row flex-xl-row listing_buying"
           >
-            <div class="listing_homes">
+            <div class="listing_homes animate__animated c__1" data-scroll>
               <div class="row">
                 <div class="col-12 d-flex flex-column justify-content-center">
                   <div class="row">
@@ -642,7 +657,7 @@
                 </div>
               </div>
             </div>
-            <div class="buying_homes">
+            <div class="buying_homes animate__animated c__2" data-scroll>
               <div class="row">
                 <div class="col-12 d-flex flex-column justify-content-center">
                   <div class="row">
@@ -680,14 +695,13 @@
         </div>
       </section>
       <!-- master plan end -->
-
       <!--team members-->
       <section class="team__members">
         <div class="container-fluid">
           <div class="px-app_heading_two">
             <h2
-              class="heading_two d-flex justify-content-center text-left"
-              class="mb-3"
+              class="heading_two d-flex justify-content-center text-left animate__animated h__1"
+              data-scroll
             >
               Our team consists of exceptionally talented individuals.
             </h2>
@@ -695,7 +709,10 @@
         </div>
         <div class="container">
           <div class="row active-with-click">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -751,13 +768,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -813,13 +833,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -875,13 +898,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -937,13 +963,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -999,13 +1028,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -1061,13 +1093,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -1123,13 +1158,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -1185,13 +1223,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -1247,13 +1288,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -1309,13 +1353,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -1371,13 +1418,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -1433,13 +1483,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -1495,13 +1548,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -1557,13 +1613,16 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
               </article>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 col-xs-12 animate__animated h__1"
+              data-scroll
+            >
               <article class="material-card Blue">
                 <h2>
                   <span>Jin Hong</span>
@@ -1619,7 +1678,7 @@
                   <a class="instragram"
                     ><img
                       src="./src/assets/social_media_icon/Instagram.png
-                                "
+                              "
                       alt="instragram"
                   /></a>
                 </div>
@@ -1634,8 +1693,8 @@
         <div class="container-fluid">
           <div class="px-app_heading_two">
             <h2
-              class="heading_two d-flex justify-content-center text-left"
-              class="mb-3"
+              class="heading_two d-flex justify-content-center text-left animate__animated h__1"
+              data-scroll
             >
               Testimonial
             </h2>
@@ -1643,7 +1702,7 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 animate__animated h__1" data-scroll>
               <div id="testimonial-slider" class="owl-carousel">
                 <div class="testimonial">
                   <div class="pic">
@@ -1741,15 +1800,33 @@
         </div>
       </section>
       <!--testimonial end-->
+      <!--have a question-->
+      <section class="question__">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="heading_two animate__animated h__1" data-scroll>
+                Have a question? Let us know
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--have a question-->
+    </main>
+    <!--main end-->
+    <!--footer-->
+    <footer>
       <!--contact us-->
       <section class="contact__us">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-              <h2 class="heading_two">Contact Us</h2>
+              <h2 class="heading_two animate__animated h__1" data-scroll>
+                Contact Us
+              </h2>
             </div>
           </div>
-
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <form
@@ -1772,7 +1849,6 @@
                     tabindex="1"
                   />
                 </div>
-
                 <div class="form-group">
                   <label class="form-label" id="emailLabel" for="email"></label>
                   <input
@@ -1784,7 +1860,6 @@
                     tabindex="2"
                   />
                 </div>
-
                 <div class="form-group">
                   <label
                     class="form-label"
@@ -1800,7 +1875,6 @@
                     tabindex="3"
                   />
                 </div>
-
                 <div class="form-group">
                   <label
                     class="form-label"
@@ -1817,7 +1891,6 @@
                     tabindex="4"
                   ></textarea>
                 </div>
-
                 <div class="text-center d-flex justify-content-center mt-5">
                   <button type="submit" class="btn_ submit_btn">
                     Send Message
@@ -1829,11 +1902,40 @@
         </div>
       </section>
       <!--contact us-->
-    </main>
-    <!--main end-->
+    </footer>
+    <!--footer-->
+    <!--back to top-->
+    <div class="back_to_top_container">
+      <a id="back_top"></a>
+    </div>
 
     <!--script-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("a[href*=#]:not([href=#])").click(function () {
+          if (
+            location.pathname.replace(/^\//, "") ==
+              this.pathname.replace(/^\//, "") &&
+            location.hostname == this.hostname
+          ) {
+            var target = $(this.hash);
+            target = target.length
+              ? target
+              : $("[name=" + this.hash.slice(1) + "]");
+            if (target.length) {
+              $("html,body").animate(
+                {
+                  scrollTop: target.offset().top,
+                },
+                1000
+              );
+              return false;
+            }
+          }
+        });
+      });
+    </script>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"

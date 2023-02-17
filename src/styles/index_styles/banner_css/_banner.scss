@@ -57,24 +57,7 @@ $banner__height: 100vh;
       }
     }
   }
-  .indicator__container__ {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, calc($banner__height - 9vh));
-    a {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 60px;
-      height: 60px;
-      background: $black;
-      border-radius: 50%;
-      i {
-        font-size: 4.2rem;
-        color: $black;
-      }
-    }
-  }
+
   .jquery-bg-slideshow-wrap-bg-element {
     width: 100%;
     height: 100%;

@@ -1,13 +1,4 @@
 .selling_master {
-  background: url(../assets/img/inner-page-banner-c.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom right;
-  filter: grayscale(100%);
-  display: flex;
-  align-items: center;
-  text-align: center;
-  position: relative;
   .bottom_bg {
     background-color: rgb(244 250 255);
   }
@@ -40,9 +31,7 @@
   .container-fluid {
     width: 90% !important;
   }
-  .row__1 {
-    margin-bottom: 10rem;
-  }
+
   h2,
   p,
   h5 {
@@ -55,10 +44,4 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .our_goal .row__1 {
-    margin-bottom: 3rem;
-  }
-  .our_goal .order__2 {
-    order: 2;
-  }
 }

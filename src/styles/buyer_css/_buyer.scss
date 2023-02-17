@@ -1,0 +1,28 @@
+.home_buying {
+  background: linear-gradient(rgb(0 0 0 / 73%), rgb(30 30 30 / 91%)),
+    url(../assets/img/modern-minimalist-ivory-home-garage-9euuep88adzkg08e.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+
+  .container-fluid {
+    max-width: 80% !important;
+  }
+  img {
+    width: 55rem;
+    max-width: 100%;
+  }
+
+  h5,
+  h2,
+  p {
+    color: $white;
+  }
+
+  h5 {
+    color: #80b5d8;
+    font-weight: 500;
+    font-size: 1.9rem;
+  }
+}

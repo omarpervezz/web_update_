@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacts - The Right REALTY Group</title>
     <!-- favicon -->
@@ -20,12 +19,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-
     <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
   <body>
@@ -58,7 +55,6 @@
                       >Master Plan
                       <i class="fa-solid fa-chevron-down"></i>
                     </a>
-
                     <!--sub menu-->
                     <div class="dropdown-content d-flex flex-column">
                       <a href="seller.html"> <span>Sellers</span></a>
@@ -84,7 +80,7 @@
                       <a href="team.html">
                         <span>Team</span>
                       </a>
-                      <a href="videos.html">
+                      <a href="#">
                         <span>Videos</span>
                       </a>
                       <a href="contact.html">
@@ -93,11 +89,9 @@
                     </div>
                   </li>
                   <li>
-                    <a href="testimonials.html" class="nav_item"
-                      >Testimonials</a
-                    >
+                    <a href="#" class="nav_item">Testimonials</a>
                   </li>
-                  <li><a href="career.html" class="nav_item">Career</a></li>
+                  <li><a href="#" class="nav_item">Career</a></li>
                 </ul>
               </div>
             </div>
@@ -145,7 +139,7 @@
                   <div>
                     <h5>REALTY Listing</h5>
                     <ul>
-                      <li><a href="list.html">REALTY LISTED</a></li>
+                      <li><a href="list.html">REALTY Listing</a></li>
                       <li><a href="recent.html">Recent Sell</a></li>
                       <li><a href="#">Recent added</a></li>
                       <li>
@@ -169,7 +163,7 @@
                     <ul>
                       <li><a href="about.html">About</a></li>
                       <li><a href="team.html">Team</a></li>
-                      <li><a href="videos.html">Videos</a></li>
+                      <li><a href="#">Videos</a></li>
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </div>
@@ -190,7 +184,6 @@
           </div>
         </div>
       </div>
-
       <button id="close" type="button" data-pushbar-close>
         <span class="material-symbols-outlined"> close </span>
         <span class="close_text">close</span>
@@ -199,15 +192,63 @@
     <!--mobile menu end-->
     <!--main start-->
     <main>
+      <!--seller banner start-->
+      <section class="s__banner height-50">
+        <div class="overlay__"></div>
+        <div class="bottom_bg"></div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <img
+                src="./src/assets/logo_img/banner_logo-removebg-preview.png"
+                alt="banner_logo"
+                class="img-fluid banner_logo animate__animated"
+                data-scroll
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--seller banner end-->
+      <!--the master plan start-->
+      <section class="b__heading">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="px-app px-glitch">
+                <h1
+                  id="fitterText_heading_one"
+                  class="h__1 animate__animated"
+                  data-scroll
+                >
+                  <span class="px-top__">Have a question?</span><br />
+                  <span class="px-top__ px-anim__">Let us know</span>
+                </h1>
+                <icon-quix class="px-glitchsvg" icon="star-filled"></icon-quix>
+                <icon-quix
+                  class="px-glitchsvg px-glitchsvg-anim"
+                  icon="star-filled"
+                ></icon-quix>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--the master plan end-->
+    </main>
+    <!--main end-->
+    <!--footer start-->
+    <footer>
       <!--contact us-->
       <section class="contact__us">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-              <h2 class="heading_two">Contact Us</h2>
+              <h2 class="heading_two animate__animated h__1" data-scroll>
+                Contact Us
+              </h2>
             </div>
           </div>
-
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <form
@@ -230,7 +271,6 @@
                     tabindex="1"
                   />
                 </div>
-
                 <div class="form-group">
                   <label class="form-label" id="emailLabel" for="email"></label>
                   <input
@@ -242,7 +282,6 @@
                     tabindex="2"
                   />
                 </div>
-
                 <div class="form-group">
                   <label
                     class="form-label"
@@ -258,7 +297,6 @@
                     tabindex="3"
                   />
                 </div>
-
                 <div class="form-group">
                   <label
                     class="form-label"
@@ -275,7 +313,6 @@
                     tabindex="4"
                   ></textarea>
                 </div>
-
                 <div class="text-center d-flex justify-content-center mt-5">
                   <button type="submit" class="btn_ submit_btn">
                     Send Message
@@ -287,12 +324,12 @@
         </div>
       </section>
       <!--contact us-->
-    </main>
-    <!--main end-->
-
-    <!--footer start-->
-
+    </footer>
     <!--footer end-->
+    <!--back to top-->
+    <div class="back_to_top_container">
+      <a id="back_top"></a>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
