@@ -1643,7 +1643,7 @@ h2 {
 
 .arrow_tip-wrapper {
   position: relative;
-  top: 77px;
+  top: 83px;
   left: -1px;
   animation: arrow-tip 2.5s ease-in infinite;
 }
