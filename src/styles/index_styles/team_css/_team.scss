@@ -155,7 +155,7 @@
   }
   .material-card .mc-description a {
     text-decoration: none;
-    color: #2c2c2c;
+    color: $white;
     font-weight: 500;
     margin-top: 0.6rem;
   }
@@ -186,7 +186,7 @@
     display: block;
     float: left;
     position: relative;
-    width: 4.6rem;
+    width: 3.5rem;
     height: 4.6rem;
     margin-left: 0.5rem;
     margin-bottom: 1.5rem;
@@ -196,7 +196,7 @@
     top: 20rem;
   }
   .material-card .mc-footer a img {
-    width: 5rem;
+    width: 3.6rem;
   }
   .material-card .mc-footer a:nth-child(1) {
     -webkit-transition: all 0.5s;
@@ -264,59 +264,13 @@
   .material-card.mc-active .mc-content {
     padding-top: 5.6em;
   }
-  @media screen and (max-width: 1200px) {
-    .material-card .mc-btn-action {
-      width: 4.2rem;
-      height: 4.2rem;
-      line-height: 3.1rem;
-    }
-    .fa {
-      font-size: 12px;
-    }
-    .row {
-      flex-direction: column;
-      align-items: center;
-    }
-    .row .col-sm-12 {
-      width: 50%;
-    }
-    .material-card .mc-footer a {
-      width: 3.2rem;
-      height: 3.2rem;
-    }
-    .mc-footer a img {
-      width: 4rem !important;
-    }
-  }
-  @media screen and (max-width: 767px) {
-    .material-card.mc-active .mc-content {
-      position: relative;
-      margin-right: 16px;
-    }
-  }
+
   .material-card.mc-active .mc-description {
     top: 35px;
     padding-top: 5.6em;
     opacity: 1;
     filter: alpha(opacity=100);
-  }
-
-  @media screen and (max-width: 767px) {
-    .material-card.mc-active .mc-description {
-      position: relative;
-      top: auto;
-      right: auto;
-      left: auto;
-      padding: 50px 30px 70px 30px;
-      bottom: 0;
-    }
-
-    .row .col-sm-12 {
-      width: 70%;
-    }
-    .mc-footer a img {
-      width: 3rem !important;
-    }
+    color: $white;
   }
 
   .material-card.mc-active .mc-footer {
@@ -337,7 +291,7 @@
   }
 
   .material-card.Blue h2 {
-    background-color: $black;
+    background-color: #0f203c;
   }
   .material-card.Blue h2:after {
     border-top-color: $black;
@@ -358,19 +312,19 @@
     border-left-color: transparent;
   }
   .material-card.Blue.mc-active h2:after {
-    border-top-color: $black;
-    border-right-color: $black;
+    border-top-color: #0f203c;
+    border-right-color: #0f203c;
     border-bottom-color: transparent;
     border-left-color: transparent;
   }
   .material-card.Blue .mc-btn-action {
-    background-color: $black;
+    background-color: #090f1b;
   }
   .material-card.Blue .mc-btn-action:hover {
     background-color: #0d47a1;
   }
   .material-card.Blue .mc-footer h4 {
-    color: #0d47a1;
+    color: $white;
   }
   .material-card.Blue .mc-footer a {
     display: flex;
@@ -380,13 +334,59 @@
     margin: 0 0.1rem;
   }
   .material-card.Blue.mc-active .mc-content {
-    background-color: #e3f2fd;
+    background-color: #090f1b;
   }
   .material-card.Blue.mc-active .mc-footer {
-    background-color: #f0f6f7;
-    box-shadow: 3px 4px 4px 0px;
+    background-color: #0f203c;
   }
   .material-card.Blue.mc-active .mc-btn-action {
     border-color: #e3f2fd;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .material-card .mc-btn-action {
+    width: 4.2rem;
+    height: 4.2rem;
+    line-height: 3.1rem;
+  }
+  .fa {
+    font-size: 12px;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row .col-sm-12 {
+    width: 50%;
+  }
+  .material-card .mc-footer a {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .mc-footer a img {
+    width: 4rem !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .material-card.mc-active .mc-content {
+    position: relative;
+    margin-right: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .material-card.mc-active .mc-description {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    padding: 50px 30px 70px 30px;
+    bottom: 0;
+  }
+
+  .row .col-sm-12 {
+    width: 70%;
+  }
+  .mc-footer a img {
+    width: 3rem !important;
   }
 }

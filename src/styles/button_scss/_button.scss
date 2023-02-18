@@ -1,15 +1,14 @@
-$button__width: 200px;
-$button_height: 49px;
+$button__width: 151px;
+$button_height: 44px;
 .btn_ {
   font-weight: 500;
   color: #ffffff;
-  background-color: #eaf0f000;
+  background-color: rgba(234, 240, 240, 0);
   width: $button__width;
   max-width: 100%;
   text-align: center;
   padding: 1.2rem 2.4rem;
   border: 0.1rem solid #ffffff;
-  transition: 0.4s all;
   margin: 1rem 0;
   position: relative;
   height: $button_height;
