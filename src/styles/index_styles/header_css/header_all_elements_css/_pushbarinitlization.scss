@@ -80,3 +80,13 @@
 .pushbar_overlay {
   background-color: #101112;
 }
+@media only screen and (max-width: 766px) {
+  [data-pushbar-id] {
+    width: 80% !important;
+  }
+  .top_menu_information__ div,
+  .bottom_menu_information__ div {
+    width: 100% !important;
+    margin-right: 1rem;
+  }
+}
