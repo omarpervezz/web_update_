@@ -1,10 +1,7 @@
 .testimonial__sec {
   padding: 7rem 0;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.76),
-      rgba(255, 255, 255, 0.45)
-    ),
-    url(../assets/img/modern-minimalist-ivory-home-garage-9euuep88adzkg08e.jpg);
+  background: linear-gradient(rgb(0 0 0 / 74%), rgb(0 0 0 / 39%)),
+    url(../assets/img/slide-8.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -14,7 +11,7 @@
     margin: auto;
     h2 {
       margin-bottom: 5rem;
-      color: #0f203c;
+      color: #e5e5e5;
     }
   }
   .testimonial {
