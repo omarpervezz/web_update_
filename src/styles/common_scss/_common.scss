@@ -251,7 +251,8 @@ h2 {
   align-items: center;
   padding: 0.6rem 0;
   border-radius: 0.4rem;
-  filter: hue-rotate(45deg);
+  filter: grayscale(1);
+  transition: 0.3s all;
 
   ul {
     li {
@@ -261,12 +262,13 @@ h2 {
         img {
           width: 3.6rem;
         }
+
         &:after {
           content: "";
           display: block;
-          width: 0.19rem;
+          width: 0.11rem;
           height: 2.5rem;
-          background: #d8d8d8;
+          background: #9b9b9b;
           position: absolute;
           right: 1.6rem;
           top: 1.4rem;
@@ -281,6 +283,9 @@ h2 {
     > :last-child {
       margin-bottom: 0;
     }
+  }
+  &:hover {
+    filter: grayscale(0);
   }
 }
 .back_to_top_container {

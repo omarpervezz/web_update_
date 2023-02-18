@@ -894,12 +894,12 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(7, 7, 7, 0.562)), url(../assets/img/modern-minimalist-ivory-home-garage-9euuep88adzkg08e.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.39)), url(../assets/img/slide-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center right;
-  filter: grayscale(1);
+  filter: saturate(98%);
 }
 
 .card-featured {
@@ -1664,7 +1664,8 @@ h2 {
   align-items: center;
   padding: 0.6rem 0;
   border-radius: 0.4rem;
-  filter: hue-rotate(45deg);
+  filter: grayscale(1);
+  transition: 0.3s all;
 }
 .social_media ul li {
   margin-bottom: 1rem;
@@ -1678,9 +1679,9 @@ h2 {
 .social_media ul li a:after {
   content: "";
   display: block;
-  width: 0.19rem;
+  width: 0.11rem;
   height: 2.5rem;
-  background: #d8d8d8;
+  background: #9b9b9b;
   position: absolute;
   right: 1.6rem;
   top: 1.4rem;
@@ -1690,6 +1691,9 @@ h2 {
 }
 .social_media ul > :last-child {
   margin-bottom: 0;
+}
+.social_media:hover {
+  filter: grayscale(0);
 }
 
 .back_to_top_container #back_top {
