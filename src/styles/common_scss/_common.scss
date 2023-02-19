@@ -22,7 +22,7 @@ section {
   justify-content: center;
   align-items: center;
   color: rgb(7, 7, 7);
-  padding: 3rem 0px;
+  padding: 4rem 0px;
   background-color: rgb(244, 250, 255);
 }
 .container-fluid {
@@ -52,14 +52,14 @@ section {
   max-width: 100%;
   width: 34rem;
 }
-.bottom_bg {
-  position: absolute;
-  background-color: #d8d8d8;
-  bottom: 0;
-  width: 100%;
-  height: 1.7rem;
-  z-index: 10000;
-}
+// .bottom_bg {
+//   position: absolute;
+//   background-color: #d8d8d8;
+//   bottom: 0;
+//   width: 100%;
+//   height: 1.7rem;
+//   z-index: 10000;
+// }
 .px-app {
   width: 89%;
   margin: 0 auto;

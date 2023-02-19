@@ -42,3 +42,14 @@
     }
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .video_wrapper iframe {
+    height: 340px;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .video_wrapper iframe {
+    height: 224px;
+  }
+}

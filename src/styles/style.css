@@ -1463,7 +1463,7 @@ section {
   justify-content: center;
   align-items: center;
   color: rgb(7, 7, 7);
-  padding: 3rem 0px;
+  padding: 4rem 0px;
   background-color: rgb(244, 250, 255);
 }
 
@@ -1497,15 +1497,6 @@ section {
 .banner_logo {
   max-width: 100%;
   width: 34rem;
-}
-
-.bottom_bg {
-  position: absolute;
-  background-color: #d8d8d8;
-  bottom: 0;
-  width: 100%;
-  height: 1.7rem;
-  z-index: 10000;
 }
 
 .px-app {
@@ -2101,6 +2092,16 @@ h2 {
   background: #ffffff !important;
 }
 
+@media only screen and (max-width: 992px) {
+  .video_wrapper iframe {
+    height: 340px;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .video_wrapper iframe {
+    height: 224px;
+  }
+}
 .question__ {
   padding: 3rem 0;
   background-color: #090f1b;
@@ -2292,4 +2293,7 @@ input[type=submit] {
   .row .second_element .footer_logo .footer_logo_2 {
     width: 7rem;
   }
+}
+.videos__ .px-top__ {
+  display: inline-block !important;
 }/*# sourceMappingURL=style.css.map */
