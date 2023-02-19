@@ -65,7 +65,7 @@ section {
     width: $full__width;
     height: $full__height;
     line-height: calc($full__height * 0.58);
-    font-size: 5.2rem;
+    font-size: 4rem;
     .px-glitch {
       text-align: center;
     }
@@ -376,7 +376,10 @@ h2 {
 }
 @media only screen and (max-width: 576px) {
   .px-app h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+  }
+  .px-app h1 span {
+    color: $white !important;
   }
 
   .arrow__wrapper___ {
@@ -385,6 +388,6 @@ h2 {
 }
 @media only screen and (max-width: 350px) {
   .px-app h1 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }

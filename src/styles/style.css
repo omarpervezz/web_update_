@@ -183,7 +183,7 @@ variable
   width: 190px;
   max-width: 100%;
   text-align: center;
-  border: 0.15rem solid rgb(226, 226, 226);
+  border: 0.15rem solid #ffffff;
   margin: 1rem 0;
   position: relative;
   height: 49px;
@@ -202,7 +202,7 @@ variable
   width: 4rem;
   height: 0.01rem;
   opacity: 1;
-  background: rgb(226, 226, 226);
+  background: #ffffff;
   position: absolute;
   transition: 0.4s all ease-in-out;
   position: absolute;
@@ -707,7 +707,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   }
 }
 .banner_ {
-  height: 100vh;
+  height: 82.0512820513vh;
   overflow: hidden;
   padding: 0;
   position: relative;
@@ -783,7 +783,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
     height: 70vh;
   }
   .indicator__container__ {
-    transform: translate(-50%, 96vh);
+    transform: translate(-50%, 78.0512820513vh);
   }
 }
 @media only screen and (max-width: 992px) {
@@ -798,7 +798,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
     height: 49vh;
   }
   .banner_ .indicator__container__ {
-    transform: translate(-50%, 92vh);
+    transform: translate(-50%, 74.0512820513vh);
   }
   .banner_ .content__ .px-app h1 .px-top__ {
     text-shadow: none;
@@ -1540,7 +1540,7 @@ section {
   width: 100%;
   height: 100%;
   line-height: 58%;
-  font-size: 5.2rem;
+  font-size: 4rem;
 }
 .px-app h1 .px-glitch {
   text-align: center;
@@ -1804,7 +1804,10 @@ h2 {
 }
 @media only screen and (max-width: 576px) {
   .px-app h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+  }
+  .px-app h1 span {
+    color: #ffffff !important;
   }
   .arrow__wrapper___ {
     top: -1.2rem;
@@ -1812,7 +1815,7 @@ h2 {
 }
 @media only screen and (max-width: 350px) {
   .px-app h1 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 .testimonial__sec {

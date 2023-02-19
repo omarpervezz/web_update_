@@ -5,7 +5,7 @@
   width: $button__width;
   max-width: 100%;
   text-align: center;
-  border: 0.15rem solid rgb(226 226 226);
+  border: 0.15rem solid $white;
   margin: 1rem 0;
   position: relative;
   height: $button_height;
@@ -23,7 +23,7 @@
     width: 4rem;
     height: 0.01rem;
     opacity: 1;
-    background: rgb(226 226 226);
+    background: $white;
     position: absolute;
     transition: 0.4s all ease-in-out;
     position: absolute;
