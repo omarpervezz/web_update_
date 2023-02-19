@@ -866,7 +866,11 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   transition: background 0.3s ease-in, color 0.3s ease-in;
 }
 .gallery__column .btn_all_litsting:hover:after {
-  background: #ffffff;
+  background: #000;
+}
+.gallery__column .btn_all_litsting:hover {
+  color: #1b1b1b;
+  border: 0.1rem solid #1b1b1b;
 }
 .gallery__link {
   margin: 0 2px 3px;
@@ -948,10 +952,10 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
 }
 .card-featured h2 {
   color: #1b1b1b;
+  font-size: 1.8rem;
 }
 .card-featured p {
-  font-size: 1.5rem;
-  line-height: 20px;
+  line-height: 17px;
   color: #1b1b1b;
   margin-top: 1rem;
 }
@@ -1169,13 +1173,11 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
 }
 .team__members {
   background-color: #eceff1;
-  color: #37474f;
 }
-.team__members .team__title {
+.team__members .gallery_title {
   width: 100%;
   height: 100%;
-  margin-bottom: 8rem;
-  padding-top: 2rem;
+  margin-bottom: 6rem;
   text-align: center;
   line-height: 98%;
   color: #1b1b1b;
@@ -1205,7 +1207,6 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
 .team__members .material-card h2 strong {
   font-weight: 400;
   display: block;
-  font-size: 0.8em;
 }
 .team__members .material-card h2:before,
 .team__members .material-card h2:after {
@@ -1276,7 +1277,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
 }
 .team__members .material-card .mc-description a {
   text-decoration: none;
-  color: #ffffff;
+  color: #eceff1;
   font-weight: 500;
   margin-top: 0.6rem;
 }
@@ -1299,7 +1300,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   display: block;
   float: left;
   position: relative;
-  width: 3.5rem;
+  width: 3.6rem;
   height: 4.6rem;
   margin-left: 0.5rem;
   margin-bottom: 1.5rem;
@@ -1309,7 +1310,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   top: 20rem;
 }
 .team__members .material-card .mc-footer a img {
-  width: 3.6rem;
+  width: 3.5rem;
 }
 .team__members .material-card .mc-footer a:nth-child(1) {
   transition: all 0.5s;
@@ -1351,12 +1352,57 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
 .team__members .material-card.mc-active .mc-content {
   padding-top: 5.6em;
 }
+@media screen and (max-width: 1200px) {
+  .team__members .material-card .mc-btn-action {
+    width: 4.2rem;
+    height: 4.2rem;
+    line-height: 3.1rem;
+  }
+  .team__members .fa {
+    font-size: 12px;
+  }
+  .team__members .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .team__members .row .col-sm-12 {
+    width: 50%;
+  }
+  .team__members .material-card .mc-footer a {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .team__members .mc-footer a img {
+    width: 4rem !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .team__members .material-card.mc-active .mc-content {
+    position: relative;
+    margin-right: 16px;
+  }
+}
 .team__members .material-card.mc-active .mc-description {
   top: 35px;
   padding-top: 5.6em;
   opacity: 1;
   filter: alpha(opacity=100);
-  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .team__members .material-card.mc-active .mc-description {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    padding: 50px 30px 70px 30px;
+    bottom: 0;
+  }
+  .team__members .row .col-sm-12 {
+    width: 70%;
+  }
+  .team__members .mc-footer a img {
+    width: 3rem !important;
+  }
 }
 .team__members .material-card.mc-active .mc-footer {
   overflow: visible;
@@ -1375,116 +1421,64 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   top: -32px;
 }
 .team__members .material-card.Blue h2 {
-  background-color: #1b1b1b;
+  background-color: #000;
 }
-
-.material-card.Blue h2:after {
-  border-top-color: #1b1b1b;
-  border-right-color: #1b1b1b;
+.team__members .material-card.Blue h2:after {
+  border-top-color: #000;
+  border-right-color: #000;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
-
-.material-card.Blue h2:before {
+.team__members .material-card.Blue h2:before {
   border-top-color: transparent;
-  border-right-color: #1b1b1b;
-  border-bottom-color: #1b1b1b;
+  border-right-color: #000;
+  border-bottom-color: #000;
   border-left-color: transparent;
 }
-
-.material-card.Blue.mc-active h2:before {
+.team__members .material-card.Blue.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #1b1b1b;
-  border-bottom-color: #1b1b1b;
+  border-right-color: #000;
+  border-bottom-color: #000;
   border-left-color: transparent;
 }
-
-.material-card.Blue.mc-active h2:after {
-  border-top-color: #1b1b1b;
-  border-right-color: #1b1b1b;
+.team__members .material-card.Blue.mc-active h2:after {
+  border-top-color: #000;
+  border-right-color: #000;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
-
-.material-card.Blue .mc-btn-action {
-  background-color: #1b1b1b;
+.team__members .material-card.Blue .mc-btn-action {
+  background-color: #000;
 }
-
-.material-card.Blue .mc-btn-action:hover {
-  background-color: #0f203c;
+.team__members .material-card.Blue .mc-btn-action:hover {
+  background-color: #0d47a1;
 }
-
-.material-card.Blue .mc-footer h4 {
-  color: #ffffff;
+.team__members .material-card.Blue .mc-footer h4 {
+  color: #eceff1;
 }
-
-.material-card.Blue .mc-footer a {
+.team__members .material-card.Blue .mc-footer a {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
   margin: 0 0.1rem;
 }
-
-.material-card.Blue.mc-active .mc-content {
+.team__members .material-card.Blue.mc-active .mc-content {
   background-color: #1b1b1b;
 }
-
-.material-card.Blue.mc-active .mc-footer {
-  background-color: #1b1b1b;
+.team__members .material-card.Blue.mc-active .mc-footer {
+  background-color: #ffffff;
+}
+.team__members .material-card.Blue.mc-active .mc-btn-action {
+  border-color: #e3f2fd;
 }
 
-.material-card.Blue.mc-active .mc-btn-action {
-  border-color: #1b1b1b;
-}
-
-@media screen and (max-width: 1200px) {
-  .team__members .team__title {
-    margin-bottom: 3rem;
+@media only screen and (max-width: 992px) {
+  .team__members .material-card h2 {
+    font-size: 1.8rem;
   }
-  .material-card .mc-btn-action {
-    width: 4.2rem;
-    height: 4.2rem;
-    line-height: 3.1rem;
-  }
-  .fa {
-    font-size: 12px;
-  }
-  .row {
-    flex-direction: column;
-    align-items: center;
-  }
-  .row .col-sm-12 {
-    width: 50%;
-  }
-  .material-card .mc-footer a {
-    width: 3.2rem;
-    height: 3.2rem;
-  }
-  .mc-footer a img {
-    width: 4rem !important;
-  }
-}
-@media screen and (max-width: 767px) {
-  .material-card.mc-active .mc-content {
-    position: relative;
-    margin-right: 16px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .material-card.mc-active .mc-description {
-    position: relative;
-    top: auto;
-    right: auto;
-    left: auto;
-    padding: 50px 30px 70px 30px;
-    bottom: 0;
-  }
-  .row .col-sm-12 {
-    width: 70%;
-  }
-  .mc-footer a img {
-    width: 3rem !important;
+  .team__members .material-card.mc-active .mc-footer {
+    height: 66px;
   }
 }
 section {
@@ -1577,7 +1571,7 @@ h2 {
 }
 
 .paragraph_ {
-  color: #a7b8d6;
+  color: #eceff1;
   font-size: 1.3rem;
 }
 
@@ -1688,6 +1682,7 @@ h2 {
   padding: 0.6rem 0;
   border-radius: 0.4rem;
   filter: grayscale(1);
+  z-index: 1000;
   transition: 0.3s all;
 }
 .social_media ul li {
@@ -1833,7 +1828,7 @@ h2 {
     font-size: 1.8rem;
   }
   h2 {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
   .px-app h1 span {
     color: #ffffff !important;

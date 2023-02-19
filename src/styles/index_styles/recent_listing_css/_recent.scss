@@ -58,7 +58,11 @@ $width: 100%;
       z-index: 1000;
       transition: background 0.3s ease-in, color 0.3s ease-in;
       &:hover:after {
-        background: $white;
+        background: $black;
+      }
+      &:hover {
+        color: $primary_two;
+        border: 0.1rem solid $primary_two;
       }
     }
   }

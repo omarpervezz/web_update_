@@ -92,7 +92,7 @@ h2 {
   font-size: 4.4rem;
 }
 .paragraph_ {
-  color: #a7b8d6;
+  color: $primary_one;
   font-size: 1.3rem;
 }
 .__line___ {
@@ -240,6 +240,7 @@ h2 {
   padding: 0.6rem 0;
   border-radius: 0.4rem;
   filter: grayscale(1);
+  z-index: 1000;
 
   transition: 0.3s all;
 
@@ -277,6 +278,7 @@ h2 {
     filter: grayscale(0);
   }
 }
+
 .back_to_top_container {
   #back_top {
     display: inline-flex;
@@ -393,7 +395,7 @@ h2 {
     font-size: 1.8rem;
   }
   h2 {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
   .px-app h1 span {
     color: $white !important;
