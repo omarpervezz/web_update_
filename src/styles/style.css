@@ -339,7 +339,7 @@ variable
   display: flex;
   transition: transform 0.3s, width 0.4s;
   overflow: hidden;
-  border: 1px solid #e5dfdf;
+  border: 1px solid #ffffff;
 }
 .hamburger .line2 {
   width: 1.5rem;
@@ -841,7 +841,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   font-size: 6rem;
 }
 .gallery__column .realty_listing_ .gallery__title span {
-  color: #fff2f2;
+  color: #83e0ff !important;
 }
 .gallery__column .realty_listing_ .gallery__title:before {
   content: "01";
@@ -849,7 +849,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   display: block;
   width: 67%;
   height: 0.4rem;
-  background-color: #6c6c6c;
+  background-color: #83e0ff;
   position: absolute;
   top: 120%;
   left: -1%;
@@ -859,7 +859,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   display: block;
   width: 100%;
   height: 0.4rem;
-  background-color: #3c7b77;
+  background-color: #a7b8d6;
   position: absolute;
   top: 110%;
   right: -10%;
