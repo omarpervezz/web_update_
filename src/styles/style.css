@@ -2158,7 +2158,7 @@ h2 {
 }
 
 .video_wrapper {
-  background-color: #1b1b1b;
+  background-color: #eceff1;
   padding: 8rem 0;
 }
 .video_wrapper .row__1 {
@@ -2170,9 +2170,9 @@ h2 {
   font-weight: 500;
   font-size: 1.7rem;
 }
-.video_wrapper h3,
+.video_wrapper h2,
 .video_wrapper p {
-  color: #a7b8d6;
+  color: #1b1b1b;
 }
 .video_wrapper .siteWrapper {
   position: relative;
