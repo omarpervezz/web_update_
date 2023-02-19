@@ -1,7 +1,7 @@
 $height: 100%;
 $width: 100%;
 .gallery {
-  background: linear-gradient(#ffffffcc, #ffffffed),
+  background: linear-gradient(rgb(1 1 1 / 76%), rgb(4 4 4 / 52%)),
     url(../assets/img/modern-minimalist-ivory-home-garage-9euuep88adzkg08e.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,11 +26,12 @@ $width: 100%;
       padding: 4rem 20px;
       position: relative;
 
-      h2 {
-        color: #2f3659;
+      .gallery__title {
+        color: #a7b8d6;
+        font-size: 6rem;
 
         span {
-          color: #787878;
+          color: #fff2f2;
         }
 
         &:before {
@@ -58,21 +59,16 @@ $width: 100%;
     }
 
     .btn_all_litsting {
-      color: $black;
+      color: #a7b8d6;
       z-index: 1000;
-      border: 0.1rem solid $black;
+      border: 0.1rem solid #a7b8d6;
       transition: background 0.3s ease-in, color 0.3s ease-in;
-      &:before,
-      &:after {
+      &:hover:after {
         background: $black;
       }
-      &:hover:before,
-      &:hover:after {
-        background: $white;
-      }
       &:hover {
-        background-color: $black !important;
-        color: $white !important;
+        background-color: $white;
+        color: $black;
       }
     }
   }
@@ -144,5 +140,11 @@ $width: 100%;
   }
   .gallery__column .realty_listing_ {
     padding: 0 25px;
+  }
+  .gallery__caption span {
+    font-size: 1.4rem;
+  }
+  .gallery__column .realty_listing_ .gallery__title {
+    font-size: 3.2rem !important;
   }
 }

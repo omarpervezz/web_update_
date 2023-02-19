@@ -1,5 +1,3 @@
-$button__width: 151px;
-$button_height: 44px;
 .btn_ {
   font-weight: 500;
   color: #ffffff;
@@ -7,8 +5,7 @@ $button_height: 44px;
   width: $button__width;
   max-width: 100%;
   text-align: center;
-  padding: 1.2rem 2.4rem;
-  border: 0.1rem solid #ffffff;
+  border: 0.15rem solid rgb(226 226 226);
   margin: 1rem 0;
   position: relative;
   height: $button_height;
@@ -16,36 +13,30 @@ $button_height: 44px;
   align-items: center;
   justify-content: center;
   transition: 0.4s all ease-in-out;
-
-  &:before,
+  span {
+    position: absolute;
+    left: calc($button__width * 0.11);
+  }
   &:after {
     content: "";
     display: block;
     width: 4rem;
     height: 0.01rem;
     opacity: 1;
-    background: rgb(5, 5, 5);
+    background: rgb(226 226 226);
     position: absolute;
     transition: 0.4s all ease-in-out;
     position: absolute;
   }
-  &:before {
-    left: calc($button__width * -0.096);
-  }
+
   &:after {
     right: calc($button__width * -0.096);
   }
 
-  &:hover:before,
   &:hover:after {
-    background: #477cab;
     opacity: 1;
-  }
-  &:hover:before {
-    left: calc($button__width * -0.057);
-  }
-  &:hover:after {
     right: calc($button__width * -0.057);
+    background-color: black;
   }
   &:hover {
     background: #fff !important;
@@ -53,17 +44,71 @@ $button_height: 44px;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
   .btn_ {
-    width: max-content;
-    height: 35px;
-    font-size: 1.3rem !important;
+    $button__width: 155px;
+    $button__height: 42px;
+    width: $button__width;
+    height: $button__height;
+    font-size: 1.3rem;
+  }
+  .btn_:after {
+    width: 3.4rem;
+  }
+}
 
-    &:before {
-      width: 2rem;
-    }
-    &:after {
-      width: 2rem;
-    }
+@media only screen and (max-width: 992px) {
+  $button__width: 134px;
+  $button__height: 33px;
+  .btn_ {
+    width: $button__width;
+    height: $button__height;
+    font-size: 1rem;
+  }
+  .btn_:after {
+    width: 2.8rem;
+    right: calc($button__height * -0.35);
+  }
+  .btn_ span {
+    left: calc($button__width * 0.16);
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .btn_ {
+    $button__width: 112px;
+    $button__height: 30px;
+    width: $button__width;
+    height: $button__height;
+  }
+  .btn_:after {
+    width: 1.8rem !important;
+  }
+  .btn_ span {
+    left: calc($button__width * 0.11);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .btn_ {
+    $button__width: 104px;
+    $button__height: 25px;
+    width: $button__width;
+    height: $button__height;
+    font-size: 0.9rem;
+  }
+  .btn_ span {
+    left: calc($button__width * 0.08);
+  }
+}
+@media only screen and (max-width: 350px) {
+  .btn_ {
+    $button__width: 84px;
+    $button__height: 15px;
+    width: $button__width;
+    height: button__height;
+    font-size: 0.7rem;
+  }
+  .btn_ span {
+    left: calc($button__width * 0.04);
   }
 }

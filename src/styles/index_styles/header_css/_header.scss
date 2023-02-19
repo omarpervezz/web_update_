@@ -119,11 +119,11 @@ header {
   }
   .hamburger {
     div {
-      background: $black !important;
+      border: 1px solid #595959;
     }
 
     span {
-      color: $black !important;
+      color: #595959 !important;
     }
   }
 }

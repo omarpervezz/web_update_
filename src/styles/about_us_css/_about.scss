@@ -10,7 +10,12 @@
   }
 }
 
+.b__heading {
+  background: #01141b;
+}
+
 .video_wrapper {
+  background: #01141b;
   .row__1 {
     margin-bottom: 4rem;
   }
@@ -19,6 +24,10 @@
     color: #e42b2b;
     font-weight: 500;
     font-size: 1.7rem;
+  }
+  h2,
+  p {
+    color: #a7b8d6;
   }
   .siteWrapper {
     position: relative;

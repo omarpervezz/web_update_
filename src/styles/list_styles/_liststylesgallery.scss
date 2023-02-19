@@ -5,6 +5,10 @@
     display: flex;
     justify-content: center;
     h2 {
+      color: #333333 !important;
+      span {
+        color: #276478 !important ;
+      }
       &:before {
         content: "" !important;
         background-color: #492669 !important;

@@ -23,7 +23,7 @@
   }
 }
 .team__members {
-  background-color: #eceff1;
+  background-color: #090f1b;
   color: #37474f;
   .px-app_heading_two {
     margin: auto;
@@ -35,6 +35,7 @@
       margin-bottom: 6rem;
       text-align: center;
       line-height: calc($full__height * 0.98);
+      color: #a7b8d6;
     }
   }
   .material-card {
@@ -294,21 +295,21 @@
     background-color: #0f203c;
   }
   .material-card.Blue h2:after {
-    border-top-color: $black;
-    border-right-color: $black;
+    border-top-color: #0f203c;
+    border-right-color: #0f203c;
     border-bottom-color: transparent;
     border-left-color: transparent;
   }
   .material-card.Blue h2:before {
     border-top-color: transparent;
-    border-right-color: $black;
-    border-bottom-color: $black;
+    border-right-color: #0f203c;
+    border-bottom-color: #0f203c;
     border-left-color: transparent;
   }
   .material-card.Blue.mc-active h2:before {
     border-top-color: transparent;
-    border-right-color: $black;
-    border-bottom-color: $black;
+    border-right-color: #0f203c;
+    border-bottom-color: #0f203c;
     border-left-color: transparent;
   }
   .material-card.Blue.mc-active h2:after {

@@ -11,6 +11,7 @@
     display: flex;
     transition: transform 0.3s, width 0.4s;
     overflow: hidden;
+    border: 1px solid #e5dfdf;
   }
   .line2 {
     width: 1.5rem;
@@ -29,5 +30,22 @@
     span {
       color: #050505;
     }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hamburger div {
+    width: 2.6rem;
+  }
+  .hamburger span {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .hamburger div {
+    width: 2.4rem;
+  }
+  .hamburger span {
+    font-size: 0.8rem;
   }
 }

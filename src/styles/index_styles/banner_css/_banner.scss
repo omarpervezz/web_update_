@@ -23,6 +23,7 @@ $banner__height: 100vh;
         width: $full__width;
         height: $full__height;
         line-height: calc($full__height * 1.1);
+        margin-bottom: 2rem;
         .px-glitch {
           text-align: center;
         }
@@ -43,19 +44,6 @@ $banner__height: 100vh;
           drop-shadow(-2px 0 0 rgba(0, 255, 255, 1));
       }
     }
-    .px-app_button {
-      margin-top: 1.5rem;
-      .btn_banner {
-        &:before,
-        &:after {
-          background-color: $white;
-        }
-        &:hover:before,
-        &:hover:after {
-          background-color: $black;
-        }
-      }
-    }
   }
 
   .jquery-bg-slideshow-wrap-bg-element {
@@ -68,7 +56,7 @@ $banner__height: 100vh;
       display: block;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.356);
+      background: rgba(0, 0, 0, 0.185);
       position: absolute;
       top: 0;
       left: 0;
@@ -99,7 +87,13 @@ $banner__height: 100vh;
     transform: translate(-50%, calc($banner__height - 4vh));
   }
 }
-
+@media only screen and (max-width: 992px) {
+  .gallery__column .realty_listing_ .gallery__title {
+    font-size: 3rem !important;
+    margin-bottom: 0.2rem;
+    margin-top: 2rem;
+  }
+}
 @media only screen and (max-width: 766px) {
   .banner_ {
     height: 49vh;
@@ -124,5 +118,11 @@ $banner__height: 100vh;
   .push-container .container-fluid .top_menu_information__ > div ul li a,
   .push-container .container-fluid .bottom_menu_information__ > div ul li a {
     font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .banner_ {
+    height: 35vh;
   }
 }
