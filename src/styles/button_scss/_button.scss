@@ -1,11 +1,9 @@
 .btn_ {
   font-weight: 500;
   color: #ffffff;
-  background-color: rgba(234, 240, 240, 0);
   width: $button__width;
   max-width: 100%;
   text-align: center;
-  border: 0.15rem solid $white;
   margin: 1rem 0;
   position: relative;
   height: $button_height;
@@ -13,6 +11,8 @@
   align-items: center;
   justify-content: center;
   transition: 0.4s all ease-in-out;
+  border: 0.1rem solid #1b1b1b;
+  background: #1b1b1b;
   span {
     position: absolute;
     left: calc($button__width * 0.11);
@@ -36,11 +36,11 @@
   &:hover:after {
     opacity: 1;
     right: calc($button__width * -0.057);
-    background-color: black;
   }
   &:hover {
-    background: #fff !important;
-    color: $black !important;
+    background-color: transparent;
+    border: 0.1rem solid $white;
+    color: $white;
   }
 }
 

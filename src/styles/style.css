@@ -179,11 +179,9 @@ variable
 .btn_ {
   font-weight: 500;
   color: #ffffff;
-  background-color: rgba(234, 240, 240, 0);
   width: 190px;
   max-width: 100%;
   text-align: center;
-  border: 0.15rem solid #ffffff;
   margin: 1rem 0;
   position: relative;
   height: 49px;
@@ -191,6 +189,8 @@ variable
   align-items: center;
   justify-content: center;
   transition: 0.4s all ease-in-out;
+  border: 0.1rem solid #1b1b1b;
+  background: #1b1b1b;
 }
 .btn_ span {
   position: absolute;
@@ -213,11 +213,11 @@ variable
 .btn_:hover:after {
   opacity: 1;
   right: -10.83px;
-  background-color: black;
 }
 .btn_:hover {
-  background: #fff !important;
-  color: #000 !important;
+  background-color: transparent;
+  border: 0.1rem solid #ffffff;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -841,7 +841,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   font-size: 6rem;
 }
 .gallery__column .realty_listing_ .gallery__title span {
-  color: #83e0ff !important;
+  color: #83e0ff;
 }
 .gallery__column .realty_listing_ .gallery__title:before {
   content: "01";
@@ -865,17 +865,12 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   right: -10%;
 }
 .gallery__column .btn_all_litsting {
-  color: #a7b8d6;
+  color: #ffffff;
   z-index: 1000;
-  border: 0.1rem solid #a7b8d6;
   transition: background 0.3s ease-in, color 0.3s ease-in;
 }
 .gallery__column .btn_all_litsting:hover:after {
-  background: #000;
-}
-.gallery__column .btn_all_litsting:hover {
-  background-color: #ffffff;
-  color: #000;
+  background: #ffffff;
 }
 .gallery__link {
   margin: 0 2px 3px;
@@ -1085,8 +1080,16 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   font-weight: 500;
   margin: 1.3rem 0;
 }
+.work_sec .learn_more_btn {
+  background: transparent;
+  border: 0.1rem solid #ffffff;
+}
 .work_sec .learn_more_btn:hover:after {
   background-color: black;
+}
+.work_sec .learn_more_btn:hover {
+  background: #ffffff;
+  color: #000;
 }
 .work_sec .work_ {
   background: #000;
@@ -2323,6 +2326,7 @@ textarea:focus {
 }
 
 .submit_button__ {
+  background: transparent;
   width: 194px;
   color: #7f99bc;
   float: right;
@@ -2331,6 +2335,10 @@ textarea:focus {
 }
 .submit_button__:before, .submit_button__:after {
   background: #30435c;
+}
+.submit_button__:hover {
+  background: #ffffff;
+  color: #000;
 }
 
 legend {

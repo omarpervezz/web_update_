@@ -21,8 +21,14 @@
     margin: 1.3rem 0;
   }
   .learn_more_btn {
+    background: transparent;
+    border: 0.1rem solid $white;
     &:hover:after {
       background-color: black;
+    }
+    &:hover {
+      background: $white;
+      color: $black;
     }
   }
   .work_ {

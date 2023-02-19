@@ -31,7 +31,7 @@ $width: 100%;
         font-size: 6rem;
 
         span {
-          color: #83e0ff !important;
+          color: #83e0ff;
         }
 
         &:before {
@@ -59,16 +59,11 @@ $width: 100%;
     }
 
     .btn_all_litsting {
-      color: #a7b8d6;
+      color: $white;
       z-index: 1000;
-      border: 0.1rem solid #a7b8d6;
       transition: background 0.3s ease-in, color 0.3s ease-in;
       &:hover:after {
-        background: $black;
-      }
-      &:hover {
-        background-color: $white;
-        color: $black;
+        background: $white;
       }
     }
   }

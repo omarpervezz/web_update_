@@ -93,6 +93,7 @@ textarea:focus {
   font-size: 14px;
 }
 .submit_button__ {
+  background: transparent;
   width: 194px;
   color: #7f99bc;
   float: right;
@@ -101,6 +102,10 @@ textarea:focus {
   &:before,
   &:after {
     background: #30435c;
+  }
+  &:hover {
+    background: $white;
+    color: $black;
   }
 }
 
