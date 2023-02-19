@@ -935,12 +935,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.39)), url(../assets/img/slide-3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center right;
-  filter: saturate(98%);
+  background: #1b1b1b;
 }
 
 .card-featured {
@@ -951,10 +946,13 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   width: 100%;
   max-width: 340px;
 }
+.card-featured h2 {
+  color: #1b1b1b;
+}
 .card-featured p {
   font-size: 1.5rem;
   line-height: 20px;
-  color: #000;
+  color: #1b1b1b;
   margin-top: 1rem;
 }
 
@@ -1136,7 +1134,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   height: 50vh;
 }
 .master_plan_ .container-fluid .listing_buying .listing_homes {
-  background: linear-gradient(hsla(0deg, 0%, 0%, 0.226), hwb(0 0% 100%/0.205)), url(https://images.pexels.com/photos/6631793/pexels-photo-6631793.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+  background: linear-gradient(hsla(0deg, 0%, 0%, 0.432), hsla(0deg, 0%, 0%, 0.432)), url(https://images.pexels.com/photos/6631793/pexels-photo-6631793.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

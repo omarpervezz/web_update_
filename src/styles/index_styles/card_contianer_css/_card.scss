@@ -4,13 +4,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
-  background: linear-gradient(rgb(0 0 0 / 74%), rgb(0 0 0 / 39%)),
-    url(../assets/img/slide-3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center right;
-  filter: saturate(98%);
+  background: $primary_two;
 }
 
 .card-featured {
@@ -20,10 +14,13 @@
   cursor: pointer;
   width: 100%;
   max-width: 340px;
+  h2 {
+    color: $primary_two;
+  }
   p {
     font-size: 1.5rem;
     line-height: 20px;
-    color: $black;
+    color: $primary_two;
     margin-top: 1rem;
   }
 }
