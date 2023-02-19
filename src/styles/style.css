@@ -1077,7 +1077,7 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
   }
 }
 .work_sec {
-  padding: 8rem 0;
+  padding: 10rem 0;
   text-align: center;
   min-height: 30vh;
   background-color: #01141b;
@@ -1094,10 +1094,9 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
 .work_sec .px-app_heading_two h2:before, .work_sec .px-app_heading_two h2:after {
   content: none !important;
 }
-.work_sec .paragraph__ {
+.work_sec .paragraph_ {
   color: #a7b8d6;
-  text-align: right;
-  margin-bottom: 3.4rem;
+  text-align: left;
   font-weight: 500;
 }
 .work_sec .learn_more_btn {
