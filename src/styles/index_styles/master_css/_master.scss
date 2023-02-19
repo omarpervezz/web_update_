@@ -49,6 +49,11 @@ $center: center;
     }
   }
 }
+@media only screen and (max-width: 1200px) {
+  .master_plan_ .bg-primary {
+    padding: 3rem 0;
+  }
+}
 @media only screen and (max-width: 992px) {
   .listing_buying {
     & > div {

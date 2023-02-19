@@ -69,23 +69,17 @@
     width: 2.8rem;
     right: calc($button__height * -0.35);
   }
-  .btn_ span {
-    left: calc($button__width * 0.16);
-  }
 }
 
 @media only screen and (max-width: 766px) {
   .btn_ {
     $button__width: 112px;
-    $button__height: 30px;
+    $button__height: 33px;
     width: $button__width;
     height: $button__height;
   }
   .btn_:after {
     width: 1.8rem !important;
-  }
-  .btn_ span {
-    left: calc($button__width * 0.11);
   }
 }
 @media only screen and (max-width: 576px) {
@@ -96,9 +90,6 @@
     height: $button__height;
     font-size: 0.9rem;
   }
-  .btn_ span {
-    left: calc($button__width * 0.08);
-  }
 }
 @media only screen and (max-width: 350px) {
   .btn_ {
@@ -107,8 +98,5 @@
     width: $button__width;
     height: button__height;
     font-size: 0.7rem;
-  }
-  .btn_ span {
-    left: calc($button__width * 0.04);
   }
 }

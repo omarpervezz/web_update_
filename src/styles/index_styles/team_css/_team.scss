@@ -23,21 +23,18 @@
   }
 }
 .team__members {
-  background-color: #090f1b;
+  background-color: #eceff1;
   color: #37474f;
-  .px-app_heading_two {
-    margin: auto;
+  .team__title {
+    width: $full__width;
+    height: $full__height;
+    margin-bottom: 8rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    h2 {
-      width: $full__width;
-      height: $full__height;
-      margin-bottom: 6rem;
-      text-align: center;
-      line-height: calc($full__height * 0.98);
-      color: #a7b8d6;
-    }
+    text-align: center;
+    line-height: calc($full__height * 0.98);
+    color: #0f203c;
   }
+
   .material-card {
     position: relative;
     height: 0;
@@ -345,6 +342,10 @@
   }
 }
 @media screen and (max-width: 1200px) {
+  .team__members .team__title {
+    margin-bottom: 3rem;
+  }
+
   .material-card .mc-btn-action {
     width: 4.2rem;
     height: 4.2rem;

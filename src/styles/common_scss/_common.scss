@@ -7,7 +7,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
-  filter: grayscale(100%);
   display: flex;
   align-items: center;
   text-align: center;
@@ -45,8 +44,7 @@ section {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -1;
-  background: rgb(36 34 34 / 53%);
+  background: rgb(0 0 0 / 21%);
 }
 .banner_logo {
   max-width: 100%;
@@ -95,10 +93,7 @@ h2 {
 }
 .paragraph_ {
   color: #a7b8d6;
-  width: 59%;
-  text-align: right;
   font-size: 1.3rem;
-  margin: 0.9rem 0;
 }
 .__line___ {
   width: $full__width;
@@ -325,11 +320,20 @@ h2 {
     font-size: 3.7rem;
     margin-bottom: 1rem !important;
   }
+  h2 {
+    font-size: 3.3rem;
+  }
+  .paragraph_ {
+    font-size: 1.2rem;
+  }
 }
 @media only screen and (max-width: 992px) {
   .px-app h1 {
-    font-size: 2.8rem;
+    font-size: 3.3rem;
     margin-bottom: 0 !important;
+  }
+  h2 {
+    font-size: 2.7rem;
   }
   .banner_ .content__ .px-app_button {
     margin-top: 0;
@@ -356,7 +360,13 @@ h2 {
 }
 @media only screen and (max-width: 766px) {
   .px-app h1 {
-    font-size: 2.3rem;
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  .paragraph_ {
+    font-size: 1rem;
   }
   .arrow__wrapper___ {
     width: 2rem;
@@ -376,7 +386,10 @@ h2 {
 }
 @media only screen and (max-width: 576px) {
   .px-app h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.8rem;
   }
   .px-app h1 span {
     color: $white !important;
@@ -388,6 +401,6 @@ h2 {
 }
 @media only screen and (max-width: 350px) {
   .px-app h1 {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
 }

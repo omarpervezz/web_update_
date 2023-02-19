@@ -7,22 +7,19 @@
   background-attachment: fixed;
   background-position: center right;
   filter: saturate(98%);
-  .px-app_heading_two {
-    margin: auto;
-    h2 {
-      margin-bottom: 5rem;
-      color: #a7b8d6;
-    }
+  h2 {
+    margin-bottom: 5rem;
+    color: #a7b8d6;
   }
   .testimonial {
-    margin: 0 20px 50px;
+    margin: 0 2rem 5rem;
   }
   .testimonial .pic {
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 9rem;
+    height: 9rem;
     border-radius: 50%;
-    margin: 0 15px 15px 0;
+    margin: 0 1.5rem 1.5rem 0;
   }
   .testimonial .pic img {
     width: 100%;
@@ -32,27 +29,27 @@
   .testimonial .testimonial-profile {
     display: inline-block;
     position: relative;
-    top: -21px;
+    top: -2.1rem;
   }
   .testimonial .title {
     display: block;
-    font-size: 20px;
+    font-size: 1/7rem;
     font-weight: 600;
     color: #d5d5d5;
     text-transform: capitalize;
-    margin: 0 0 7px 0;
+    margin: 0 0 0.7rem 0;
   }
   .testimonial .post {
     display: block;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #d5d5d5;
     font-weight: 500;
   }
   .testimonial .description {
-    padding: 20px 22px;
+    padding: 2rem 2.2rem;
     height: $full__height;
     background: rgb(15 32 60);
-    font-size: 15px;
+    font-size: 1.4rem;
     color: #fff;
     line-height: calc($full__height * 1.3);
     margin: 0;
@@ -61,15 +58,15 @@
   .testimonial .description:before,
   .testimonial .description:after {
     content: "";
-    border-width: 18px 0 0 18px;
+    border-width: 1.8rem 0 0 1.8rem;
     border-style: solid;
     border-color: rgb(15 32 60) transparent transparent;
     position: absolute;
-    bottom: -18px;
+    bottom: -1.8rem;
     left: 0;
   }
   .testimonial .description:after {
-    border-width: 18px 18px 0 0;
+    border-width: 1.8rem 1.8rem 0 0;
     left: auto;
     right: 0;
   }
@@ -77,8 +74,8 @@
     background: hsl(220deg 50% 7% / 44%);
   }
   .owl-theme .owl-controls {
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 1rem;
+    margin-left: 3rem;
   }
   .owl-theme .owl-controls .owl-buttons div {
     opacity: 0.8;
@@ -94,5 +91,25 @@
   }
   .owl-next:before {
     content: "\f054";
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .testimonial__sec .testimonial .title {
+    font-size: 1.2rem;
+  }
+
+  .testimonial__sec .testimonial .post {
+    font-size: 1.1rem;
+  }
+  .testimonial__sec .description {
+    font-size: 1.1rem !important;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .testimonial__sec {
+    padding: 3rem 0;
+  }
+  .testimonial__sec h2 {
+    margin-bottom: 1rem;
   }
 }
