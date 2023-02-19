@@ -2,33 +2,32 @@
   padding: 10rem 0;
   text-align: center;
   min-height: 30vh;
-  background-color: #01141b;
+  background-color: #eceff1;
 
   h2 {
     margin: 0 0 1.5rem 0;
     text-align: left;
-    color: #a7b8d6;
+    color: #1b1b1b;
     &:before,
     &:after {
       content: none !important;
     }
   }
   .paragraph_ {
-    color: #a7b8d6;
+    color: #1b1b1b;
     width: 59%;
     text-align: left;
     font-weight: 500;
     margin: 1.3rem 0;
   }
   .learn_more_btn {
-    background: transparent;
-    border: 0.1rem solid $white;
+    border: 0.1rem solid #1b1b1b;
     &:hover:after {
-      background-color: black;
+      background-color: $black;
     }
     &:hover {
-      background: $white;
-      color: $black;
+      background: transparent;
+      color: #1b1b1b;
     }
   }
   .work_ {

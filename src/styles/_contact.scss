@@ -3,11 +3,11 @@ fieldset {
 }
 
 .row .first_element:first-child {
-  background-color: #090f1b;
+  background-color: $primary_two;
 }
 
 .row .second_element:last-child {
-  background: #0f203c;
+  background-color: $primary_one;
 }
 
 .row .second_element .form_infromation__ {
@@ -16,11 +16,11 @@ fieldset {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  color: white;
+  color: $primary_one;
 }
 
 .row .second_element .form_infromation__ .forminformation__title {
-  color: #e5e5e5;
+  color: $primary_two;
   font-size: 42px;
   font-weight: normal;
   line-height: 105%;
@@ -28,7 +28,7 @@ fieldset {
 }
 
 .row .second_element .form_infromation__ .forminformation__title span {
-  color: #6087c8;
+  color: #19469d;
   font-weight: 600;
 }
 .row .second_element {
@@ -37,7 +37,7 @@ fieldset {
   }
   p {
     margin-bottom: 0.4rem;
-    color: #a5a5a5;
+    color: $primary_two;
     font-weight: 500;
     line-height: 2rem;
   }
@@ -58,7 +58,7 @@ fieldset {
   margin: 0 auto;
 }
 form {
-  color: #fff;
+  color: $primary_one;
   padding: 106px 56px;
   border-radius: 5px;
   font-family: Arial, sans-serif;
@@ -69,7 +69,7 @@ textarea {
 input,
 textarea {
   background-color: transparent;
-  color: #b4c0d8;
+  color: $primary_one;
   border: none;
   padding: 10px 0;
   border-radius: 5px;
@@ -85,23 +85,23 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border-bottom: 0.1px solid #4e6688;
+  border-bottom: 0.1px solid $primary_one;
 }
 ::placeholder {
-  color: #737c8d;
+  color: $primary_one;
   font-weight: normal;
   font-size: 14px;
 }
 .submit_button__ {
   background: transparent;
   width: 194px;
-  color: #7f99bc;
+  color: $primary_one;
   float: right;
   font-weight: 600;
-  border: 0.1rem solid #30435c;
+  border: 0.1rem solid $primary_one;
   &:before,
   &:after {
-    background: #30435c;
+    background: $primary_one;
   }
   &:hover {
     background: $white;
@@ -113,7 +113,7 @@ legend {
   font-size: 19px;
   margin-bottom: 66px;
   border: none;
-  color: #abbcda;
+  color: #eceff1;
   font-weight: normal;
   margin-left: -63px;
 }

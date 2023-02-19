@@ -48,9 +48,9 @@
   .testimonial .description {
     padding: 2rem 2.2rem;
     height: $full__height;
-    background: rgb(15 32 60);
+    background-color: #1b1b1b;
     font-size: 1.4rem;
-    color: #fff;
+    color: #eceff1;
     line-height: calc($full__height * 1.3);
     margin: 0;
     position: relative;
@@ -70,16 +70,14 @@
     left: auto;
     right: 0;
   }
-  .owl-wrapper {
-    background: hsl(220deg 50% 7% / 44%);
-  }
+
   .owl-theme .owl-controls {
     margin-top: 1rem;
     margin-left: 3rem;
   }
   .owl-theme .owl-controls .owl-buttons div {
     opacity: 0.8;
-    background: #0f203b;
+    background-color: #1b1b1b;
   }
   .owl-prev:before,
   .owl-next:before {

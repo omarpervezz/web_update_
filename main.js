@@ -10,18 +10,18 @@ $(document).ready(function () {
 
       if (scroll > 20) {
         $("header").addClass("nav_bg_adder animate__fadeInDownBig");
-        source =
-          "./src/assets/logo_img/KakaoTalk_Photo_2023-02-10-00-16-41.png";
-        img.attr("src", source);
-        img.addClass("second_logo");
+        // source =
+        //   "./src/assets/logo_img/KakaoTalk_Photo_2023-02-10-00-16-41.png";
+        // img.attr("src", source);
+        // img.addClass("second_logo");
         var link__ = $(".nav_item");
         link__.addClass("black_");
         // change the src
       } else {
         $("header").removeClass("nav_bg_adder animate__fadeInDownBig");
-        source = "./src/assets/logo_img/the_right_realty_group.jpeg";
-        img.attr("src", source);
-        img.removeClass("second_logo");
+        // source = "./src/assets/logo_img/the_right_realty_group.jpeg";
+        // img.attr("src", source);
+        // img.removeClass("second_logo");
       }
     });
   });

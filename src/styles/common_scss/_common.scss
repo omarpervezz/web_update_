@@ -44,7 +44,7 @@ section {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgb(0 0 0 / 21%);
+  background: rgb(0 0 0 / 52%);
 }
 .banner_logo {
   max-width: 100%;
@@ -64,13 +64,13 @@ section {
     height: $full__height;
     line-height: calc($full__height * 0.58);
     font-size: 4rem;
+    color: #eceff1;
     .px-glitch {
       text-align: center;
     }
 
     .px-top__ {
       font-weight: 600;
-      display: block;
     }
     .px-anim__ {
       color: #477cab;
@@ -88,7 +88,7 @@ h2 {
   line-height: 1.2;
   font-family: "Barlow Condensed", sans-serif;
   position: relative;
-  color: #a7b8d6;
+  color: #eceff1;
   font-size: 4.4rem;
 }
 .paragraph_ {
@@ -126,7 +126,7 @@ h2 {
   }
 }
 .arrow__wrapper___ {
-  background-color: #ffffff;
+  background-color: #eceff1;
   width: 4rem;
   height: 4rem;
   display: flex;
@@ -239,6 +239,7 @@ h2 {
   align-items: center;
   padding: 0.6rem 0;
   border-radius: 0.4rem;
+  filter: grayscale(1);
 
   transition: 0.3s all;
 
@@ -271,6 +272,9 @@ h2 {
     > :last-child {
       margin-bottom: 0;
     }
+  }
+  &:hover {
+    filter: grayscale(0);
   }
 }
 .back_to_top_container {

@@ -8,12 +8,15 @@ $center: center;
 
   .bg-primary {
     padding: 7rem 0;
-    background-color: #01141b !important;
-    color: $white;
+    background-color: #eceff1 !important;
     .fluid_1 {
       width: 80% !important;
       margin-right: auto;
       margin-left: auto;
+      h2,
+      p {
+        color: #1b1b1b;
+      }
     }
   }
   .container-fluid {

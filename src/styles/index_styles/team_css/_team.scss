@@ -32,7 +32,7 @@
     padding-top: 2rem;
     text-align: center;
     line-height: calc($full__height * 0.98);
-    color: #0f203c;
+    color: #1b1b1b;
   }
 
   .material-card {
@@ -289,58 +289,59 @@
   }
 
   .material-card.Blue h2 {
-    background-color: #0f203c;
-  }
-  .material-card.Blue h2:after {
-    border-top-color: #0f203c;
-    border-right-color: #0f203c;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-  }
-  .material-card.Blue h2:before {
-    border-top-color: transparent;
-    border-right-color: #0f203c;
-    border-bottom-color: #0f203c;
-    border-left-color: transparent;
-  }
-  .material-card.Blue.mc-active h2:before {
-    border-top-color: transparent;
-    border-right-color: #0f203c;
-    border-bottom-color: #0f203c;
-    border-left-color: transparent;
-  }
-  .material-card.Blue.mc-active h2:after {
-    border-top-color: #0f203c;
-    border-right-color: #0f203c;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-  }
-  .material-card.Blue .mc-btn-action {
-    background-color: #090f1b;
-  }
-  .material-card.Blue .mc-btn-action:hover {
-    background-color: #0d47a1;
-  }
-  .material-card.Blue .mc-footer h4 {
-    color: $white;
-  }
-  .material-card.Blue .mc-footer a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.5rem;
-    margin: 0 0.1rem;
-  }
-  .material-card.Blue.mc-active .mc-content {
-    background-color: #090f1b;
-  }
-  .material-card.Blue.mc-active .mc-footer {
-    background-color: #0f203c;
-  }
-  .material-card.Blue.mc-active .mc-btn-action {
-    border-color: #e3f2fd;
+    background-color: #1b1b1b;
   }
 }
+.material-card.Blue h2:after {
+  border-top-color: #1b1b1b;
+  border-right-color: #1b1b1b;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.material-card.Blue h2:before {
+  border-top-color: transparent;
+  border-right-color: #1b1b1b;
+  border-bottom-color: #1b1b1b;
+  border-left-color: transparent;
+}
+.material-card.Blue.mc-active h2:before {
+  border-top-color: transparent;
+  border-right-color: #1b1b1b;
+  border-bottom-color: #1b1b1b;
+  border-left-color: transparent;
+}
+.material-card.Blue.mc-active h2:after {
+  border-top-color: #1b1b1b;
+  border-right-color: #1b1b1b;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.material-card.Blue .mc-btn-action {
+  background-color: #1b1b1b;
+}
+.material-card.Blue .mc-btn-action:hover {
+  background-color: #0f203c;
+}
+.material-card.Blue .mc-footer h4 {
+  color: $white;
+}
+.material-card.Blue .mc-footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin: 0 0.1rem;
+}
+.material-card.Blue.mc-active .mc-content {
+  background-color: #1b1b1b;
+}
+.material-card.Blue.mc-active .mc-footer {
+  background-color: #1b1b1b;
+}
+.material-card.Blue.mc-active .mc-btn-action {
+  border-color: #1b1b1b;
+}
+
 @media screen and (max-width: 1200px) {
   .team__members .team__title {
     margin-bottom: 3rem;
