@@ -1057,6 +1057,11 @@ header .container-fluid .row_ .menu_container .nav_menu ul li:first-child {
     margin-bottom: 4rem;
   }
 }
+@media only screen and (max-width: 566px) {
+  .card-featured {
+    max-width: 200px;
+  }
+}
 .work_sec {
   padding: 10rem 0;
   text-align: center;
